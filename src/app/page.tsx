@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { 
   Sparkles, 
   Hammer, 
@@ -33,7 +32,7 @@ export default function Home() {
               <div className="lg:col-span-7">
                 <div className="inline-flex items-center gap-2 rounded-full border border-zinc-200/70 dark:border-zinc-800 px-2 sm:px-2.5 py-1 text-xs text-zinc-600 dark:text-zinc-400 mb-4 sm:mb-5">
                   <Sparkles className="h-3 w-3 sm:h-3.5 sm:w-3.5" />
-                  We Don't Just Advise. We Deliver.
+                  We Don&apos;t Just Advise. We Deliver.
                 </div>
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl/tight tracking-tight font-semibold">
                 Business Architects Who Actually Build.
@@ -154,7 +153,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-zinc-900 dark:text-zinc-100 mb-2">High-Level Consultants</h3>
-                      <p className="text-sm text-zinc-600 dark:text-zinc-400">They deliver impressive strategies but disappear when it's time to build. All plan, no action.</p>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400">They deliver impressive strategies but disappear when it&apos;s time to build. All plan, no action.</p>
                     </div>
                   </div>
                 </div>
@@ -178,7 +177,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-zinc-900 dark:text-zinc-100 mb-2">Unfinished Projects & Budget Holes</h3>
-                      <p className="text-sm text-zinc-600 dark:text-zinc-400">You're left with broken promises, half-built solutions, and a depleted budget.</p>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400">You&apos;re left with broken promises, half-built solutions, and a depleted budget.</p>
                     </div>
                   </div>
                 </div>
@@ -189,11 +188,11 @@ export default function Home() {
                   <div className="text-center space-y-4">
                     <div className="text-6xl">😤</div>
                     <blockquote className="text-lg font-medium text-zinc-900 dark:text-zinc-100 italic">
-                      You're trapped in the execution gap
+                      You&apos;re trapped in the execution gap
                     </blockquote>
                     <div className="pt-4 border-t border-zinc-200/70 dark:border-zinc-800">
                       <p className="text-base text-zinc-600 dark:text-zinc-400 leading-relaxed">
-                        You don't need another <span className="line-through text-red-500">vendor</span>.
+                        You don&apos;t need another <span className="line-through text-red-500">vendor</span>.
                         <br />
                         You need a <span className="font-semibold text-indigo-600 dark:text-indigo-400">partner</span>.
                       </p>
@@ -214,7 +213,7 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-3 sm:px-4 lg:px-8">
             <div className="flex items-center gap-2 mb-6">
               <ShieldCheck className="h-5 w-5 text-indigo-500" />
-              <h3 className="text-xl sm:text-2xl tracking-tight font-semibold">We Don't Just Advise. We Deliver.</h3>
+              <h3 className="text-xl sm:text-2xl tracking-tight font-semibold">We Don&apos;t Just Advise. We Deliver.</h3>
             </div>
             <div className="grid md:grid-cols-3 gap-5">
               <div className="group rounded-lg border border-zinc-200/70 dark:border-zinc-800 p-5 hover:border-zinc-300 dark:hover:border-zinc-700 transition">
@@ -285,7 +284,7 @@ export default function Home() {
                   <div className="space-y-3 mb-6">
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-red-400 mt-2 flex-shrink-0"></div>
-                      <p className="text-sm text-zinc-600 dark:text-zinc-400"><span className="font-medium text-red-600 dark:text-red-400">Problem:</span> "Our website is a brochure that doesn't get clients."</p>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400"><span className="font-medium text-red-600 dark:text-red-400">Problem:</span> &ldquo;Our website is a brochure that doesn&apos;t get clients.&rdquo;</p>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></div>
@@ -315,7 +314,7 @@ export default function Home() {
                   <div className="space-y-3 mb-6">
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-red-400 mt-2 flex-shrink-0"></div>
-                      <p className="text-sm text-zinc-600 dark:text-zinc-400"><span className="font-medium text-red-600 dark:text-red-400">Problem:</span> "We're invisible to potential customers online."</p>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400"><span className="font-medium text-red-600 dark:text-red-400">Problem:</span> &ldquo;We&apos;re invisible to potential customers online.&rdquo;</p>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></div>
@@ -345,7 +344,7 @@ export default function Home() {
                   <div className="space-y-3 mb-6">
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-red-400 mt-2 flex-shrink-0"></div>
-                      <p className="text-sm text-zinc-600 dark:text-zinc-400"><span className="font-medium text-red-600 dark:text-red-400">Problem:</span> "We need a technical partner to build it."</p>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400"><span className="font-medium text-red-600 dark:text-red-400">Problem:</span> &ldquo;We need a technical partner to build it.&rdquo;</p>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></div>
@@ -375,7 +374,7 @@ export default function Home() {
                   <div className="space-y-3 mb-6">
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-red-400 mt-2 flex-shrink-0"></div>
-                      <p className="text-sm text-zinc-600 dark:text-zinc-400"><span className="font-medium text-red-600 dark:text-red-400">Problem:</span> "Operations are chaotic."</p>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400"><span className="font-medium text-red-600 dark:text-red-400">Problem:</span> &ldquo;Operations are chaotic.&rdquo;</p>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></div>
@@ -407,7 +406,7 @@ export default function Home() {
                     <Bot className="h-4 w-4 text-white" />
                   </div>
                 </div>
-                <span className="text-sm font-medium text-zinc-700 dark:text-zinc-300 group-hover:text-zinc-900 dark:group-hover:text-zinc-100 transition-colors">Need a custom combination? Let's talk about your specific challenges.</span>
+                <span className="text-sm font-medium text-zinc-700 dark:text-zinc-300 group-hover:text-zinc-900 dark:group-hover:text-zinc-100 transition-colors">Need a custom combination? Let&apos;s talk about your specific challenges.</span>
               </Link>
             </div>
           </div>
@@ -418,7 +417,7 @@ export default function Home() {
           <div className="mx-auto max-w-6xl px-3 sm:px-4 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               <div>
-                <h3 className="text-2xl sm:text-3xl tracking-tight font-semibold">We Aren't Just an Agency. We're an Innovation House.</h3>
+                <h3 className="text-2xl sm:text-3xl tracking-tight font-semibold">We Aren&apos;t Just an Agency. We&apos;re an Innovation House.</h3>
                 <p className="mt-4 text-zinc-600 dark:text-zinc-400 leading-relaxed">How do we know our systems work? Because we use them to run our own successful SaaS platforms. ElGrupito.com is our laboratory—where we perfected AI-augmented workflows, async teams, and growth strategies.</p>
                 <ul className="mt-5 space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
                   <li className="flex items-center gap-2"><Users className="h-4 w-4 text-indigo-500" /> 2,500+ Active Users</li>
@@ -464,7 +463,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
                 <div>
                   <h3 className="text-xl sm:text-2xl tracking-tight font-semibold">Build With Us.</h3>
-                  <p className="mt-2 text-zinc-600 dark:text-zinc-400">We're a distributed ecosystem of builders, strategists, and creators. We're always looking for talented people obsessed with turning ideas into reality.</p>
+                  <p className="mt-2 text-zinc-600 dark:text-zinc-400">We&apos;re a distributed ecosystem of builders, strategists, and creators. We&apos;re always looking for talented people obsessed with turning ideas into reality.</p>
                 </div>
                 <Link href="/careers" className="inline-flex items-center rounded-md bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 px-4 py-2.5 text-sm font-medium hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60">
                   View Open Positions

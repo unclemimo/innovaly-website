@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 
 export default function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [mounted, setMounted] = useState(false);
+  const [, setMounted] = useState(false);
 
   useEffect(() => {
     // Set mounted to true
