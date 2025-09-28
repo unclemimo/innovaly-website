@@ -114,7 +114,7 @@ export default function Footer() {
             {/* Social Links */}
             <div className="flex items-center gap-2 sm:gap-3">
               <a 
-                href="#" 
+                href="https://www.linkedin.com/company/innovaly-services/" 
                 className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-zinc-200/70 dark:border-zinc-800 hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-colors"
                 aria-label="LinkedIn"
               >
@@ -123,7 +123,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a 
-                href="#" 
+                href="https://x.com/innovatias" 
                 className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-zinc-200/70 dark:border-zinc-800 hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-colors"
                 aria-label="Twitter"
               >

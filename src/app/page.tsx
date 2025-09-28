@@ -24,7 +24,9 @@ export default function Home() {
                   Stop Buying Services. Start Building an Ecosystem.
                 </h1>
                 <p className="mt-4 sm:mt-5 text-zinc-600 dark:text-zinc-400 text-sm sm:text-base lg:text-lg leading-relaxed">
-                  You&apos;re trapped between consultants who deliver PDFs and agencies who build code without a strategy. We&apos;re the end-to-end growth implementation partner that actually builds.
+                You're trapped between consultants who deliver PDFs and agencies who build code without a strategy. We're the end-to-end growth implementation partner that actually understands you and make you grow.
+
+
                 </p>
                 <div className="mt-6 sm:mt-7 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
                   <Link href="/contact" className="inline-flex items-center justify-center rounded-md bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 px-4 py-2.5 sm:py-3 text-sm font-medium hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60 transition-all">
@@ -46,7 +48,7 @@ export default function Home() {
                     Agency + Innovation House
                   </div>
                   <div className="rounded-md border border-zinc-200/70 dark:border-zinc-800 p-3 text-center sm:text-left">
-                    <span className="block text-zinc-900 dark:text-zinc-100 font-medium">Latin-founded</span>
+                    <span className="block text-zinc-900 dark:text-zinc-100 font-medium">International team</span>
                     Cultural fluency
                   </div>
                 </div>
@@ -71,8 +73,8 @@ export default function Home() {
                       <div className="text-xs">ARR in 3 Months</div>
                     </div>
                     <div className="rounded-md border border-zinc-200/70 dark:border-zinc-800 p-2 sm:p-3 text-center">
-                      <div className="text-zinc-900 dark:text-zinc-100 font-medium text-sm sm:text-base">Automated</div>
-                      <div className="text-xs">Operations</div>
+                      <div className="text-zinc-900 dark:text-zinc-100 font-medium text-sm sm:text-base">+70%</div>
+                      <div className="text-xs">Automated Operations</div>
                     </div>
                   </div>
                   <div className="absolute inset-x-0 -bottom-10 h-24 blur-2xl" style={{background: 'radial-gradient(50% 50% at 50% 0%, rgba(99,102,241,0.15), transparent 70%)'}}></div>
