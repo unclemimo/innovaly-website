@@ -10,10 +10,24 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 sm:gap-3">
-              <div className="h-7 w-7 sm:h-8 sm:w-8 rounded-md bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 grid place-items-center ring-1 ring-zinc-200 dark:ring-zinc-800">
-                <span className="text-[11px] sm:text-[13px] font-semibold tracking-tight">I</span>
+              <div className="relative h-7 w-7 sm:h-8 sm:w-8">
+                {/* Outer ring - monochromatic */}
+                <div className="absolute inset-0 rounded-full bg-zinc-300 dark:bg-zinc-600 p-0.5">
+                  <div className="h-full w-full rounded-full bg-white dark:bg-zinc-900 flex items-center justify-center">
+                    {/* Inner logo - monochromatic */}
+                    <div className="relative">
+                      <div className="h-3 w-3 sm:h-3.5 sm:w-3.5 bg-zinc-600 dark:bg-zinc-400 rounded-sm transform rotate-45">
+                        <div className="absolute inset-0.5 bg-white dark:bg-zinc-900 rounded-[1px]"></div>
+                      </div>
+                      <div className="absolute -top-0.5 -right-0.5 h-1.5 w-1.5 bg-zinc-500 dark:bg-zinc-500 rounded-full"></div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <span className="text-base sm:text-lg font-semibold tracking-tight">Innovaly</span>
+              <div className="flex flex-col">
+                <span className="text-base sm:text-lg font-bold tracking-tight text-zinc-900 dark:text-zinc-100">Innovaly</span>
+                <span className="text-[10px] sm:text-[11px] font-medium text-zinc-500 dark:text-zinc-400 -mt-1 tracking-wide">SERVICES</span>
+              </div>
             </div>
             <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
               Business Architects who build—web, growth, platforms, and automation.
@@ -108,7 +122,7 @@ export default function Footer() {
         <div className="mt-8 pt-6 border-t border-zinc-200/70 dark:border-zinc-800">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <span className="text-xs sm:text-sm text-zinc-500 dark:text-zinc-400">
-              © {new Date().getFullYear()} Innovaly Services. Remote-first.
+              © {new Date().getFullYear()} Innovaly Services OÜ. Remote-first 🇪🇪
             </span>
             
             {/* Social Links */}

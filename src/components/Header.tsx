@@ -86,7 +86,7 @@ export default function Header() {
             {/* CTA Button - Hidden on mobile, visible on tablet+ */}
             <Link href="/contact" className="hidden md:inline-flex items-center rounded-md bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 px-2 lg:px-3 py-1.5 lg:py-2 text-xs lg:text-sm font-medium hover:opacity-95 active:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60 transition-all">
               <Rocket className="mr-1 lg:mr-2 h-3.5 lg:h-4 w-3.5 lg:w-4" />
-              <span className="hidden lg:inline">Let&apos;s Build Together</span>
+              <span className="hidden lg:inline">Get a Free Consultation</span>
               <span className="lg:hidden">Build</span>
             </Link>
             

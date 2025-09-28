@@ -33,13 +33,13 @@ export default function Home() {
               <div className="lg:col-span-7">
                 <div className="inline-flex items-center gap-2 rounded-full border border-zinc-200/70 dark:border-zinc-800 px-2 sm:px-2.5 py-1 text-xs text-zinc-600 dark:text-zinc-400 mb-4 sm:mb-5">
                   <Sparkles className="h-3 w-3 sm:h-3.5 sm:w-3.5" />
-                  Business Architects Who Build
+                  We Don't Just Advise. We Deliver.
                 </div>
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl/tight tracking-tight font-semibold">
-                  Stop Buying Services. Start Building an Ecosystem.
+                Business Architects Who Actually Build.
                 </h1>
                 <p className="mt-4 sm:mt-5 text-zinc-600 dark:text-zinc-400 text-sm sm:text-base lg:text-lg leading-relaxed">
-                You're trapped between consultants who deliver PDFs and agencies who build code without a strategy. We're the end-to-end growth implementation partner that actually understands you and make you grow.
+                We bridge strategy with execution. From validating your idea to deploying your platform, we are the end-to-end partner that delivers the tangible digital solutions your business needs to grow.
 
 
                 </p>
@@ -153,8 +153,8 @@ export default function Home() {
                       <span className="text-red-600 dark:text-red-400 font-bold text-sm">1</span>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-zinc-900 dark:text-zinc-100 mb-2">Overpriced Silicon Valley Agencies</h3>
-                      <p className="text-sm text-zinc-600 dark:text-zinc-400">They don't get your culture, your market, or your budget constraints.</p>
+                      <h3 className="font-semibold text-zinc-900 dark:text-zinc-100 mb-2">High-Level Consultants</h3>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400">They deliver impressive strategies but disappear when it's time to build. All plan, no action.</p>
                     </div>
                   </div>
                 </div>
@@ -165,8 +165,8 @@ export default function Home() {
                       <span className="text-orange-600 dark:text-orange-400 font-bold text-sm">2</span>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-zinc-900 dark:text-zinc-100 mb-2">Cheap but Shallow Offshore Shops</h3>
-                      <p className="text-sm text-zinc-600 dark:text-zinc-400">Low cost, but they lack strategic depth and long-term vision.</p>
+                      <h3 className="font-semibold text-zinc-900 dark:text-zinc-100 mb-2">Low-Cost Coders and Agencies</h3>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400">They build what you ask but lack the business insight to solve the right problems. All action, no plan.</p>
                     </div>
                   </div>
                 </div>
@@ -178,7 +178,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-zinc-900 dark:text-zinc-100 mb-2">Unfinished Projects & Budget Holes</h3>
-                      <p className="text-sm text-zinc-600 dark:text-zinc-400">Sold on transformation, left with complexity and incomplete solutions.</p>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400">You're left with broken promises, half-built solutions, and a depleted budget.</p>
                     </div>
                   </div>
                 </div>
@@ -189,7 +189,7 @@ export default function Home() {
                   <div className="text-center space-y-4">
                     <div className="text-6xl">😤</div>
                     <blockquote className="text-lg font-medium text-zinc-900 dark:text-zinc-100 italic">
-                      "As a Latin-owned business, you're stuck."
+                      You're trapped in the execution gap
                     </blockquote>
                     <div className="pt-4 border-t border-zinc-200/70 dark:border-zinc-800">
                       <p className="text-base text-zinc-600 dark:text-zinc-400 leading-relaxed">
@@ -242,72 +242,173 @@ export default function Home() {
                   </div>
                   <h4 className="font-medium">Cultural Fluency</h4>
                 </div>
-                <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400">We speak your language—literally and figuratively. A Latin team that understands your market, ambition, and journey.</p>
+                <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400">We speak your language—literally and figuratively. An international team that understands your market, ambition, and journey.</p>
               </div>
             </div>
           </div>
         </section>
 
         {/* Services Overview */}
-        <section className="py-12 sm:py-16 border-t border-zinc-200/70 dark:border-zinc-800">
-          <div className="mx-auto max-w-7xl px-3 sm:px-4 lg:px-8">
-            <div className="max-w-2xl">
-              <h3 className="text-2xl sm:text-3xl tracking-tight font-semibold">Your Toolkit for Borderless Growth</h3>
-              <p className="mt-3 text-zinc-600 dark:text-zinc-400">Our services are complete solutions to the most critical problems growing businesses face.</p>
+        <section className="relative py-16 sm:py-24 border-t border-zinc-200/70 dark:border-zinc-800 overflow-hidden">
+          {/* Background Effects */}
+          <div className="absolute inset-0 pointer-events-none">
+            <div className="absolute top-0 left-1/4 w-96 h-96 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-gradient-to-r from-emerald-500/10 to-blue-500/10 rounded-full blur-3xl"></div>
+          </div>
+          
+          <div className="relative mx-auto max-w-7xl px-3 sm:px-4 lg:px-8">
+            <div className="text-center max-w-3xl mx-auto">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-indigo-500/10 to-purple-500/10 border border-indigo-500/20 mb-6">
+                <Sparkles className="h-4 w-4 text-indigo-500" />
+                <span className="text-sm font-medium text-indigo-600 dark:text-indigo-400">Complete Solutions</span>
+              </div>
+              <h3 className="text-3xl sm:text-4xl lg:text-5xl tracking-tight font-bold bg-gradient-to-r from-zinc-900 via-zinc-800 to-zinc-700 dark:from-zinc-100 dark:via-zinc-200 dark:to-zinc-300 bg-clip-text text-transparent">
+                Your Toolkit for <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Borderless Growth</span>
+              </h3>
+              <p className="mt-4 text-lg text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto">Transform your biggest business challenges into competitive advantages with our specialized solutions.</p>
             </div>
-            <div className="mt-8 grid md:grid-cols-2 gap-6">
-              {/* Card 1 */}
-              <div className="group rounded-lg border border-zinc-200/70 dark:border-zinc-800 hover:border-zinc-300 dark:hover:border-zinc-700 transition p-6 bg-white/60 dark:bg-zinc-900/40">
-                <div className="flex items-center gap-3">
-                  <div className="h-9 w-9 rounded-md bg-indigo-500/10 text-indigo-500 grid place-items-center ring-1 ring-indigo-500/20">
-                    <Globe2 className="h-4 w-4" />
+            
+            <div className="mt-16 grid md:grid-cols-2 gap-8">
+              {/* Card 1 - Growth-Engine Websites */}
+              <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-indigo-50 via-white to-purple-50 dark:from-indigo-950/20 dark:via-zinc-900 dark:to-purple-950/20 border border-indigo-200/50 dark:border-indigo-800/30 hover:border-indigo-300 dark:hover:border-indigo-700 transition-all duration-500 hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-1">
+                <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="relative p-8">
+                  <div className="flex items-start justify-between mb-6">
+                    <div className="p-3 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 text-white shadow-lg shadow-indigo-500/25 group-hover:scale-110 transition-transform duration-300">
+                      <Globe2 className="h-7 w-7" />
+                    </div>
+                    <div className="opacity-20 group-hover:opacity-100 transition-opacity duration-300">
+                      <div className="w-16 h-16 rounded-full bg-gradient-to-br from-indigo-500/20 to-purple-500/20 blur-xl"></div>
+                    </div>
                   </div>
-                  <h4 className="font-medium">Growth-Engine Websites</h4>
-                </div>
-                <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400">Problem: "Our website is a brochure that doesn't get clients." Solution: We build websites that are your #1 salesperson, optimized for Google, AI, and conversion.</p>
-                <Link href="/services/websites" className="mt-4 inline-flex items-center text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:underline">
-                  Learn More <ArrowRight className="ml-1.5 h-4 w-4" />
-                </Link>
-              </div>
-              {/* Card 2 */}
-              <div className="group rounded-lg border border-zinc-200/70 dark:border-zinc-800 hover:border-zinc-300 dark:hover:border-zinc-700 transition p-6 bg-white/60 dark:bg-zinc-900/40">
-                <div className="flex items-center gap-3">
-                  <div className="h-9 w-9 rounded-md bg-indigo-500/10 text-indigo-500 grid place-items-center ring-1 ring-indigo-500/20">
-                    <SearchCheck className="h-4 w-4" />
+                  <h4 className="text-xl font-bold text-zinc-900 dark:text-zinc-100 mb-3 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors duration-300">Growth-Engine Websites</h4>
+                  <div className="space-y-3 mb-6">
+                    <div className="flex items-start gap-3">
+                      <div className="w-2 h-2 rounded-full bg-red-400 mt-2 flex-shrink-0"></div>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400"><span className="font-medium text-red-600 dark:text-red-400">Problem:</span> "Our website is a brochure that doesn't get clients."</p>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></div>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400"><span className="font-medium text-emerald-600 dark:text-emerald-400">Solution:</span> Websites that are your #1 salesperson, optimized for Google, AI, and conversion.</p>
+                    </div>
                   </div>
-                  <h4 className="font-medium">Authority Building</h4>
+                  <Link href="/services/websites" className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-medium text-sm hover:shadow-lg hover:shadow-indigo-500/25 transition-all duration-300 group-hover:scale-105">
+                    Explore Solution
+                    <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
+                  </Link>
                 </div>
-                <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400">Problem: "We're invisible to potential customers online." Solution: Proven SEO and backlinks to make you the definitive answer in your niche.</p>
-                <Link href="/services/authority" className="mt-4 inline-flex items-center text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:underline">
-                  Learn More <ArrowRight className="ml-1.5 h-4 w-4" />
-                </Link>
               </div>
-              {/* Card 3 */}
-              <div className="group rounded-lg border border-zinc-200/70 dark:border-zinc-800 hover:border-zinc-300 dark:hover:border-zinc-700 transition p-6 bg-white/60 dark:bg-zinc-900/40">
-                <div className="flex items-center gap-3">
-                  <div className="h-9 w-9 rounded-md bg-indigo-500/10 text-indigo-500 grid place-items-center ring-1 ring-indigo-500/20">
-                    <Blocks className="h-4 w-4" />
+
+              {/* Card 2 - Authority Building */}
+              <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-emerald-50 via-white to-teal-50 dark:from-emerald-950/20 dark:via-zinc-900 dark:to-teal-950/20 border border-emerald-200/50 dark:border-emerald-800/30 hover:border-emerald-300 dark:hover:border-emerald-700 transition-all duration-500 hover:shadow-2xl hover:shadow-emerald-500/10 hover:-translate-y-1">
+                <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/5 to-teal-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="relative p-8">
+                  <div className="flex items-start justify-between mb-6">
+                    <div className="p-3 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white shadow-lg shadow-emerald-500/25 group-hover:scale-110 transition-transform duration-300">
+                      <SearchCheck className="h-7 w-7" />
+                    </div>
+                    <div className="opacity-20 group-hover:opacity-100 transition-opacity duration-300">
+                      <div className="w-16 h-16 rounded-full bg-gradient-to-br from-emerald-500/20 to-teal-500/20 blur-xl"></div>
+                    </div>
                   </div>
-                  <h4 className="font-medium">Innovation & Platform Development</h4>
-                </div>
-                <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400">Problem: "We need a technical partner to build it." Solution: Validate, build your MVP or platform, and get your first paying customers.</p>
-                <Link href="/services/innovation" className="mt-4 inline-flex items-center text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:underline">
-                  Learn More <ArrowRight className="ml-1.5 h-4 w-4" />
-                </Link>
-              </div>
-              {/* Card 4 */}
-              <div className="group rounded-lg border border-zinc-200/70 dark:border-zinc-800 hover:border-zinc-300 dark:hover:border-zinc-700 transition p-6 bg-white/60 dark:bg-zinc-900/40">
-                <div className="flex items-center gap-3">
-                  <div className="h-9 w-9 rounded-md bg-indigo-500/10 text-indigo-500 grid place-items-center ring-1 ring-indigo-500/20">
-                    <Bot className="h-4 w-4" />
+                  <h4 className="text-xl font-bold text-zinc-900 dark:text-zinc-100 mb-3 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors duration-300">Authority Building</h4>
+                  <div className="space-y-3 mb-6">
+                    <div className="flex items-start gap-3">
+                      <div className="w-2 h-2 rounded-full bg-red-400 mt-2 flex-shrink-0"></div>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400"><span className="font-medium text-red-600 dark:text-red-400">Problem:</span> "We're invisible to potential customers online."</p>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></div>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400"><span className="font-medium text-emerald-600 dark:text-emerald-400">Solution:</span> Proven SEO and baseline quality backlinks to boost your visibility and build your authority in your niche.</p>
+                    </div>
                   </div>
-                  <h4 className="font-medium">AI & Process Automation</h4>
+                  <Link href="/services/authority" className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 text-white font-medium text-sm hover:shadow-lg hover:shadow-emerald-500/25 transition-all duration-300 group-hover:scale-105">
+                    Explore Solution
+                    <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
+                  </Link>
                 </div>
-                <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400">Problem: "Operations are chaotic." Solution: Transform manual processes into streamlined, automated systems.</p>
-                <Link href="/services/automation" className="mt-4 inline-flex items-center text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:underline">
-                  Learn More <ArrowRight className="ml-1.5 h-4 w-4" />
-                </Link>
               </div>
+
+              {/* Card 3 - Innovation & Platform Development */}
+              <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-orange-50 via-white to-amber-50 dark:from-orange-950/20 dark:via-zinc-900 dark:to-amber-950/20 border border-orange-200/50 dark:border-orange-800/30 hover:border-orange-300 dark:hover:border-orange-700 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1">
+                <div className="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-amber-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="relative p-8">
+                  <div className="flex items-start justify-between mb-6">
+                    <div className="p-3 rounded-2xl bg-gradient-to-br from-orange-500 to-amber-600 text-white shadow-lg shadow-orange-500/25 group-hover:scale-110 transition-transform duration-300">
+                      <Blocks className="h-7 w-7" />
+                    </div>
+                    <div className="opacity-20 group-hover:opacity-100 transition-opacity duration-300">
+                      <div className="w-16 h-16 rounded-full bg-gradient-to-br from-orange-500/20 to-amber-500/20 blur-xl"></div>
+                    </div>
+                  </div>
+                  <h4 className="text-xl font-bold text-zinc-900 dark:text-zinc-100 mb-3 group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors duration-300">Innovation & Platform Development</h4>
+                  <div className="space-y-3 mb-6">
+                    <div className="flex items-start gap-3">
+                      <div className="w-2 h-2 rounded-full bg-red-400 mt-2 flex-shrink-0"></div>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400"><span className="font-medium text-red-600 dark:text-red-400">Problem:</span> "We need a technical partner to build it."</p>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></div>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400"><span className="font-medium text-emerald-600 dark:text-emerald-400">Solution:</span> Validate your business idea, build your MVP or platform, and get your first paying customers through our proven Go To Market strategies.</p>
+                    </div>
+                  </div>
+                  <Link href="/services/innovation" className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-orange-500 to-amber-600 text-white font-medium text-sm hover:shadow-lg hover:shadow-orange-500/25 transition-all duration-300 group-hover:scale-105">
+                    Explore Solution
+                    <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
+                  </Link>
+                </div>
+              </div>
+
+              {/* Card 4 - AI & Process Automation */}
+              <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-cyan-50 via-white to-blue-50 dark:from-cyan-950/20 dark:via-zinc-900 dark:to-blue-950/20 border border-cyan-200/50 dark:border-cyan-800/30 hover:border-cyan-300 dark:hover:border-cyan-700 transition-all duration-500 hover:shadow-2xl hover:shadow-cyan-500/10 hover:-translate-y-1">
+                <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-blue-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="relative p-8">
+                  <div className="flex items-start justify-between mb-6">
+                    <div className="p-3 rounded-2xl bg-gradient-to-br from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25 group-hover:scale-110 transition-transform duration-300">
+                      <Bot className="h-7 w-7" />
+                    </div>
+                    <div className="opacity-20 group-hover:opacity-100 transition-opacity duration-300">
+                      <div className="w-16 h-16 rounded-full bg-gradient-to-br from-cyan-500/20 to-blue-500/20 blur-xl"></div>
+                    </div>
+                  </div>
+                  <h4 className="text-xl font-bold text-zinc-900 dark:text-zinc-100 mb-3 group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors duration-300">AI & Process Automation</h4>
+                  <div className="space-y-3 mb-6">
+                    <div className="flex items-start gap-3">
+                      <div className="w-2 h-2 rounded-full bg-red-400 mt-2 flex-shrink-0"></div>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400"><span className="font-medium text-red-600 dark:text-red-400">Problem:</span> "Operations are chaotic."</p>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></div>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400"><span className="font-medium text-emerald-600 dark:text-emerald-400">Solution:</span> Transform manual processes into streamlined, automated systems.</p>
+                    </div>
+                  </div>
+                  <Link href="/services/automation" className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium text-sm hover:shadow-lg hover:shadow-cyan-500/25 transition-all duration-300 group-hover:scale-105">
+                    Explore Solution
+                    <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            
+            {/* Call to Action */}
+            <div className="mt-16 text-center">
+              <Link href="http://localhost:3002/contact" className="inline-flex items-center gap-3 px-6 py-3 rounded-2xl bg-gradient-to-r from-zinc-100 to-zinc-50 dark:from-zinc-800 dark:to-zinc-900 border border-zinc-200 dark:border-zinc-700 hover:shadow-lg transition-all duration-300 group">
+                <div className="flex -space-x-2">
+                  <div className="w-8 h-8 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 flex items-center justify-center">
+                    <Globe2 className="h-4 w-4 text-white" />
+                  </div>
+                  <div className="w-8 h-8 rounded-full bg-gradient-to-r from-emerald-500 to-teal-600 flex items-center justify-center">
+                    <SearchCheck className="h-4 w-4 text-white" />
+                  </div>
+                  <div className="w-8 h-8 rounded-full bg-gradient-to-r from-orange-500 to-amber-600 flex items-center justify-center">
+                    <Blocks className="h-4 w-4 text-white" />
+                  </div>
+                  <div className="w-8 h-8 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 flex items-center justify-center">
+                    <Bot className="h-4 w-4 text-white" />
+                  </div>
+                </div>
+                <span className="text-sm font-medium text-zinc-700 dark:text-zinc-300 group-hover:text-zinc-900 dark:group-hover:text-zinc-100 transition-colors">Need a custom combination? Let's talk about your specific challenges.</span>
+              </Link>
             </div>
           </div>
         </section>
