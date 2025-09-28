@@ -13,14 +13,26 @@ export default function Header() {
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const shouldDark = stored ? stored === 'dark' : prefersDark;
     setIsDark(shouldDark);
-    document.documentElement.classList.toggle('dark', shouldDark);
+    
+    // Ensure the theme is applied
+    if (shouldDark) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
   }, []);
 
   const toggleTheme = () => {
     const newTheme = !isDark;
     setIsDark(newTheme);
     localStorage.setItem('theme', newTheme ? 'dark' : 'light');
-    document.documentElement.classList.toggle('dark', newTheme);
+    
+    // Apply the new theme
+    if (newTheme) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
   };
 
   const toggleMobileMenu = () => {
