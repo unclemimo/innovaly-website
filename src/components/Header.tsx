@@ -49,10 +49,24 @@ export default function Header() {
         <div className="flex h-14 sm:h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 sm:gap-3 group" onClick={closeMobileMenu}>
-            <div className="h-7 w-7 sm:h-8 sm:w-8 rounded-md bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 grid place-items-center ring-1 ring-zinc-200 dark:ring-zinc-800">
-              <span className="text-[11px] sm:text-[13px] font-semibold tracking-tight">I</span>
+            <div className="relative h-7 w-7 sm:h-8 sm:w-8">
+              {/* Outer ring */}
+              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700 dark:from-blue-500 dark:via-purple-500 dark:to-indigo-600 p-0.5">
+                <div className="h-full w-full rounded-full bg-white dark:bg-zinc-900 flex items-center justify-center">
+                  {/* Inner logo */}
+                  <div className="relative">
+                    <div className="h-3 w-3 sm:h-3.5 sm:w-3.5 bg-gradient-to-br from-blue-600 to-indigo-700 dark:from-blue-500 dark:to-indigo-600 rounded-sm transform rotate-45">
+                      <div className="absolute inset-0.5 bg-white dark:bg-zinc-900 rounded-[1px]"></div>
+                    </div>
+                    <div className="absolute -top-0.5 -right-0.5 h-1.5 w-1.5 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full animate-pulse"></div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <span className="text-base sm:text-lg font-semibold tracking-tight">Innovaly</span>
+            <div className="flex flex-col">
+              <span className="text-base sm:text-lg font-bold tracking-tight bg-gradient-to-r from-zinc-900 via-zinc-800 to-zinc-900 dark:from-white dark:via-zinc-200 dark:to-white bg-clip-text text-transparent">Innovaly</span>
+              <span className="text-[10px] sm:text-[11px] font-medium text-zinc-500 dark:text-zinc-400 -mt-1 tracking-wide">SERVICES</span>
+            </div>
             <span className="ml-1 sm:ml-2 hidden xs:inline-flex rounded-full border border-zinc-200/70 dark:border-zinc-800 px-1.5 sm:px-2 py-0.5 text-[9px] sm:text-[10px] font-medium text-zinc-600 dark:text-zinc-400">Latin-founded</span>
           </Link>
 
