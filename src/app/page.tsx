@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Sparkles, Hammer, ArrowRight } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -52,7 +53,14 @@ export default function Home() {
               </div>
               <div className="lg:col-span-5 mt-8 lg:mt-0">
                 <div className="relative rounded-xl border border-zinc-200/70 dark:border-zinc-800 bg-white/70 dark:bg-zinc-900/50 p-4 sm:p-5 shadow-sm overflow-hidden">
-                  <img src="https://images.unsplash.com/photo-1621619856624-42fd193a0661?w=1080&q=80" alt="Futuristic workspace" className="h-48 sm:h-60 w-full object-cover rounded-md" />
+                  <Image 
+                    src="https://images.unsplash.com/photo-1621619856624-42fd193a0661?w=1080&q=80" 
+                    alt="Futuristic workspace" 
+                    width={1080}
+                    height={600}
+                    priority
+                    className="h-48 sm:h-60 w-full object-cover rounded-md"
+                  />
                   <div className="mt-3 sm:mt-4 grid grid-cols-3 gap-2 sm:gap-3 text-xs">
                     <div className="rounded-md border border-zinc-200/70 dark:border-zinc-800 p-2 sm:p-3 text-center">
                       <div className="text-zinc-900 dark:text-zinc-100 font-medium text-sm sm:text-base">2,500+</div>

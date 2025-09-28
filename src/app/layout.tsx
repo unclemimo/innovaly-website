@@ -6,6 +6,8 @@ import ThemeProvider from "@/components/ThemeProvider";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  display: "swap",
+  preload: true,
 });
 
 export const metadata: Metadata = {
@@ -21,6 +23,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        {/* Preload critical image for LCP optimization */}
+        <link
+          rel="preload"
+          as="image"
+          href="https://images.unsplash.com/photo-1621619856624-42fd193a0661?w=1080&q=80"
+          type="image/jpeg"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
