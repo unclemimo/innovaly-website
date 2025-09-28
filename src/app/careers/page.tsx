@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight, Code, Palette, Bug, MapPin, Clock, Users, Zap } from 'lucide-react';
+import { ArrowRight, Code, Bug, MapPin, Clock, Users, Zap } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 

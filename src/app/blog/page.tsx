@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Calendar, ArrowRight, Tag, Search } from 'lucide-react';
+import { Calendar, ArrowRight, Search } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 

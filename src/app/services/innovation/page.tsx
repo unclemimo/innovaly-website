@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Lightbulb, Target, Smartphone, Globe, ArrowRight, Clock, DollarSign, CheckCircle } from 'lucide-react';
+import { Lightbulb, Target, Smartphone, Globe, ArrowRight, DollarSign, CheckCircle } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 

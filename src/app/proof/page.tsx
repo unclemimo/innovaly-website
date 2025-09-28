@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight, Users, DollarSign, TrendingUp, Globe, Smartphone, Zap, Target } from 'lucide-react';
+import { ArrowRight, Globe, Smartphone, Zap } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -34,7 +34,7 @@ export default function Proof() {
                 <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
                   <li>• <strong>Strategy:</strong> We identified a market gap and applied a product-led growth strategy focused on community and trust.</li>
                   <li>• <strong>Technology:</strong> We built the entire platform on the same stack we use for clients: Next.js, Supabase, and a suite of self-hosted automation tools.</li>
-                  <li>• <strong>Automation:</strong> We created a sophisticated, "human-in-the-loop" automation system with N8N and Browserbase to handle account fulfillment.</li>
+                  <li>• <strong>Automation:</strong> We created a sophisticated, &quot;human-in-the-loop&quot; automation system with N8N and Browserbase to handle account fulfillment.</li>
                   <li>• <strong>Growth:</strong> We used our own Authority Building service to drive organic growth.</li>
                 </ul>
               </div>

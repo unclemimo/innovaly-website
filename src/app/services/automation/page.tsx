@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Workflow, Search, Settings, Database, Users, ArrowRight, Clock, DollarSign, CheckCircle } from 'lucide-react';
+import { Workflow, Search, Settings, Database, Users, ArrowRight, DollarSign, CheckCircle } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
