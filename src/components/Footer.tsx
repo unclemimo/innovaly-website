@@ -56,11 +56,6 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors" href="/reviews">
-                  Reviews
-                </Link>
-              </li>
-              <li>
                 <Link className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors" href="/careers">
                   Careers
                 </Link>
