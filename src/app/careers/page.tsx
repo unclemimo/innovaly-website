@@ -68,7 +68,7 @@ export default function Careers() {
               <div>
                 <h4 className="font-medium mb-3">Who you are:</h4>
                 <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
-                  <li>• <strong>Startup founder or builder experience</strong> - you've built businesses before</li>
+                  <li>• <strong>Startup founder or builder experience</strong> - you&apos;ve built businesses before</li>
                   <li>• Full-stack engineer with strong backend expertise and frontend capabilities</li>
                   <li>• Comfortable working with minimal detailed roadmaps, driven by vision</li>
                   <li>• Experienced in leading technical teams and making architectural decisions</li>
@@ -82,7 +82,7 @@ export default function Careers() {
             <div className="mb-6 p-4 bg-indigo-50 dark:bg-indigo-950/20 rounded-lg border border-indigo-200 dark:border-indigo-800">
               <h4 className="font-medium text-indigo-900 dark:text-indigo-100 mb-2">Why This Role is Different:</h4>
               <p className="text-sm text-indigo-700 dark:text-indigo-300">
-                This is a senior technical role with significant autonomy and growth potential. You'll work directly with leadership to shape our technology direction and have the opportunity to grow into a more senior position as we scale. We're looking for someone who thinks like a builder and is excited about joining an early-stage startup.
+                This is a senior technical role with significant autonomy and growth potential. You&apos;ll work directly with leadership to shape our technology direction and have the opportunity to grow into a more senior position as we scale. We&apos;re looking for someone who thinks like a builder and is excited about joining an early-stage startup.
               </p>
             </div>
             
@@ -262,13 +262,13 @@ export default function Careers() {
             <div className="rounded-xl border border-zinc-200/70 dark:border-zinc-800 p-8 bg-white/60 dark:bg-zinc-900/40">
               <h3 className="text-xl font-semibold mb-4">We Invest in Our People</h3>
               <p className="text-zinc-600 dark:text-zinc-400 mb-4">
-                We don't see our team members as numbers on a payroll. We believe in fair treatment and direct correlation between company growth and your personal development. As an early-stage startup, we're committed to growing together.
+                We don&apos;t see our team members as numbers on a payroll. We believe in fair treatment and direct correlation between company growth and your personal development. As an early-stage startup, we&apos;re committed to growing together.
               </p>
               <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
                 <li>• <strong>Progressive Growth Plan:</strong> Unlock bonuses and salary increases based on milestones</li>
                 <li>• <strong>Regular Performance Reviews:</strong> Quarterly progress assessments with clear growth paths</li>
                 <li>• <strong>Direct Impact:</strong> Your contributions directly influence company success and your rewards</li>
-                <li>• <strong>Long-term Vision:</strong> We're building for the next level, and you'll be part of that journey</li>
+                <li>• <strong>Long-term Vision:</strong> We&apos;re building for the next level, and you&apos;ll be part of that journey</li>
               </ul>
             </div>
             

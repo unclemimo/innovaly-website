@@ -75,7 +75,7 @@ export default function Contact() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-              Let's Build Something Amazing
+              Let&apos;s Build Something Amazing
             </h1>
             <p className="text-xl text-zinc-600 dark:text-zinc-400 max-w-3xl mx-auto">
               Ready to transform your business with cutting-edge technology? Tell us about your project and let&apos;s create something extraordinary together.
