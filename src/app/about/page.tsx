@@ -1,4 +1,5 @@
 import { Handshake, Beaker, Eye, BookOpen, Unlock, Lightbulb, Target, Code } from 'lucide-react';
+import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -118,15 +119,15 @@ export default function About() {
             
             {/* Image container with enhanced effects */}
             <div className="relative overflow-hidden rounded-2xl border border-zinc-200/70 dark:border-zinc-800 shadow-2xl group-hover:shadow-3xl transition-all duration-500">
-              <img 
+              <Image 
                 src="/david-atias.jpg" 
                 alt="David Atias - Venezuelan-Spanish entrepreneur and founder of Innovaly Services, digital nomad with 15+ years experience across 8 countries" 
                 title="David Atias - Founder & CEO of Innovaly Services"
                 className="w-full h-96 object-cover transition-transform duration-700 group-hover:scale-105" 
                 style={{objectPosition: 'center 15%'}}
-                loading="eager"
-                width="400"
-                height="400"
+                priority
+                width={400}
+                height={400}
               />
               
               {/* Overlay gradient for dramatic effect */}

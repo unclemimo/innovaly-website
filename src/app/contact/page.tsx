@@ -1,6 +1,7 @@
 'use client';
 
 import { useForm, ValidationError } from '@formspree/react';
+import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -22,7 +23,7 @@ export default function Contact() {
               </div>
               <h1 className="text-4xl font-bold mb-4 text-green-600 dark:text-green-400">Message Sent!</h1>
               <p className="text-xl text-zinc-600 dark:text-zinc-400 mb-8">
-                Thank you for reaching out! We've received your message and will get back to you within 24 hours.
+                Thank you for reaching out! We&apos;ve received your message and will get back to you within 24 hours.
               </p>
             </div>
             
@@ -33,7 +34,7 @@ export default function Contact() {
                   <div className="w-6 h-6 bg-indigo-100 dark:bg-indigo-900/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                     <span className="text-sm font-medium text-indigo-600 dark:text-indigo-400">1</span>
                   </div>
-                  <p className="text-zinc-600 dark:text-zinc-400">We'll review your project requirements and prepare a detailed proposal</p>
+                  <p className="text-zinc-600 dark:text-zinc-400">We&apos;ll review your project requirements and prepare a detailed proposal</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 bg-indigo-100 dark:bg-indigo-900/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -51,12 +52,12 @@ export default function Contact() {
             </div>
             
             <div className="mt-8">
-              <a 
+              <Link 
                 href="/" 
                 className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition-colors"
               >
                 Back to Home
-              </a>
+              </Link>
             </div>
           </div>
         </main>
@@ -77,7 +78,7 @@ export default function Contact() {
               Let's Build Something Amazing
             </h1>
             <p className="text-xl text-zinc-600 dark:text-zinc-400 max-w-3xl mx-auto">
-              Ready to transform your business with cutting-edge technology? Tell us about your project and let's create something extraordinary together.
+              Ready to transform your business with cutting-edge technology? Tell us about your project and let&apos;s create something extraordinary together.
             </p>
           </div>
 
@@ -161,7 +162,7 @@ export default function Contact() {
                 <div className="mb-8">
                   <h2 className="text-3xl font-bold mb-4 text-zinc-900 dark:text-zinc-100">Start Your Project</h2>
                   <p className="text-zinc-600 dark:text-zinc-400">
-                    Fill out the form below and we'll get back to you with a detailed proposal tailored to your needs.
+                    Fill out the form below and we&apos;ll get back to you with a detailed proposal tailored to your needs.
                   </p>
                 </div>
 

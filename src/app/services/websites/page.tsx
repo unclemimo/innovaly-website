@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { ArrowLeft, Hammer, ArrowRight, PenTool, LayoutGrid, ServerCog, Search, Plug, BookOpenCheck, Check, MessageSquare, Globe2, SearchCheck, Blocks, Bot } from 'lucide-react';
+import Image from 'next/image';
+import { ArrowLeft, Hammer, ArrowRight, PenTool, LayoutGrid, ServerCog, Search, Plug, BookOpenCheck } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -89,7 +90,13 @@ export default function WebsitesService() {
       <section className="py-10 sm:py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="rounded-xl border border-zinc-200/70 dark:border-zinc-800 overflow-hidden">
-            <img src="https://images.unsplash.com/photo-1529101091764-c3526daf38fe?q=80&w=1600&auto=format&fit=crop" alt="High-converting website UI preview" className="w-full h-80 object-cover" />
+            <Image 
+              src="https://images.unsplash.com/photo-1529101091764-c3526daf38fe?q=80&w=1600&auto=format&fit=crop" 
+              alt="High-converting website UI preview" 
+              width={1600}
+              height={320}
+              className="w-full h-80 object-cover" 
+            />
           </div>
           <p className="mt-3 text-xs text-zinc-500">
             Innovaly Services helps ambitious teams turn their websites into growth engines—combining strategy, design, and technology to drive real business results.

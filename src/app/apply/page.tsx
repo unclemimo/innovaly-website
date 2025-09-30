@@ -22,7 +22,7 @@ export default function Apply() {
               </div>
               <h1 className="text-4xl font-bold mb-4 text-green-600 dark:text-green-400">Application Submitted!</h1>
               <p className="text-xl text-zinc-600 dark:text-zinc-400 mb-8">
-                Thank you for your interest in joining our team! We've received your application and will review it carefully.
+                Thank you for your interest in joining our team! We&apos;ve received your application and will review it carefully.
               </p>
             </div>
             
@@ -33,19 +33,19 @@ export default function Apply() {
                   <div className="w-6 h-6 bg-indigo-100 dark:bg-indigo-900/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                     <span className="text-sm font-medium text-indigo-600 dark:text-indigo-400">1</span>
                   </div>
-                  <p className="text-zinc-600 dark:text-zinc-400">We'll review your application and portfolio within 3-5 business days</p>
+                  <p className="text-zinc-600 dark:text-zinc-400">We&apos;ll review your application and portfolio within 3-5 business days</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 bg-indigo-100 dark:bg-indigo-900/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                     <span className="text-sm font-medium text-indigo-600 dark:text-indigo-400">2</span>
                   </div>
-                  <p className="text-zinc-600 dark:text-zinc-400">If selected, we'll schedule an initial interview to discuss your experience</p>
+                  <p className="text-zinc-600 dark:text-zinc-400">If selected, we&apos;ll schedule an initial interview to discuss your experience</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 bg-indigo-100 dark:bg-indigo-900/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                     <span className="text-sm font-medium text-indigo-600 dark:text-indigo-400">3</span>
                   </div>
-                  <p className="text-zinc-600 dark:text-zinc-400">We'll conduct a technical assessment and team fit evaluation</p>
+                  <p className="text-zinc-600 dark:text-zinc-400">We&apos;ll conduct a technical assessment and team fit evaluation</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 bg-indigo-100 dark:bg-indigo-900/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -83,7 +83,7 @@ export default function Apply() {
               Join Our Team
             </h1>
             <p className="text-xl text-zinc-600 dark:text-zinc-400 max-w-3xl mx-auto">
-              Ready to build something extraordinary? We're looking for talented developers who share our passion for execution and innovation.
+              Ready to build something extraordinary? We&apos;re looking for talented developers who share our passion for execution and innovation.
             </p>
           </div>
 
@@ -132,7 +132,7 @@ export default function Apply() {
               </div>
 
               <div className="bg-gradient-to-br from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 p-8 rounded-2xl">
-                <h3 className="text-xl font-bold mb-6 text-purple-900 dark:text-purple-100">What We're Looking For</h3>
+                <h3 className="text-xl font-bold mb-6 text-purple-900 dark:text-purple-100">What We&apos;re Looking For</h3>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
@@ -160,7 +160,7 @@ export default function Apply() {
                 <div className="mb-8">
                   <h2 className="text-3xl font-bold mb-4 text-zinc-900 dark:text-zinc-100">Apply Now</h2>
                   <p className="text-zinc-600 dark:text-zinc-400">
-                    Fill out the application form below and let us know why you'd be a great fit for our team.
+                    Fill out the application form below and let us know why you&apos;d be a great fit for our team.
                   </p>
                 </div>
 
