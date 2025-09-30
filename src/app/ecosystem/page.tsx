@@ -68,7 +68,7 @@ export default function Ecosystem() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl tracking-tight font-semibold mb-6">Specialized Expertise on Demand</h2>
           <p className="text-zinc-600 dark:text-zinc-400 mb-8">
-            No single agency can be the best at everything. That&apos;s why we&apos;ve built a trusted network of contractors and specialist agency partners who are leaders in their fields. From YouTube SEO masters like MiraVision to a global network of business developers, we can plug in world-class talent exactly when it&apos;s needed, ensuring you always have the best people working on your project.
+            No single agency can be the best at everything. That&apos;s why we&apos;ve built a trusted network of contractors and specialist agency partners who are leaders in their fields. From YouTube SEO masters like <a href="https://miravision.tv/" target="_blank" rel="noopener noreferrer nofollow">Miravision</a> to a global network of business developers, we can plug in world-class talent exactly when it&apos;s needed, ensuring you always have the best people working on your project.
           </p>
           
           <div className="grid md:grid-cols-3 gap-6">
@@ -80,7 +80,7 @@ export default function Ecosystem() {
                 <h3 className="font-medium">YouTube SEO Masters</h3>
               </div>
               <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                Partners like MiraVision who specialize in video content optimization and YouTube growth strategies.
+                Partners like <a href="https://miravision.tv/" target="_blank" rel="noopener noreferrer nofollow">Miravision</a> who specialize in video content optimization and YouTube growth strategies.
               </p>
             </div>
             

@@ -59,7 +59,7 @@ export default function ProcessAutomation() {
                 <div>
                   <h3 className="font-medium mb-2">2. System Architecture</h3>
                   <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                    We design a new, streamlined system using powerful tools like N8N, Zapier, and custom integrations.
+                    We design a new, streamlined system using powerful tools like N8N, Zapier, AI agents and custom integrations.
                   </p>
                 </div>
               </div>
@@ -85,9 +85,9 @@ export default function ProcessAutomation() {
                   <Workflow className="h-5 w-5" />
                 </div>
                 <div>
-                  <h3 className="font-medium mb-2">4. Google Workspace Partnership</h3>
+                  <h3 className="font-medium mb-2">4. Google Workspace and Big tech discounts</h3>
                   <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                    As Google Workspace partners, we not only secure better pricing but also manage the entire migration and training process for your team, unlocking the full potential of the ecosystem.
+                    We work closely with Google partners to secure better pricing and manage the entire migration and training process for your team, unlocking the full potential of the ecosystem. We also help you obtain discounts on other major tech tools, such as Microsoft, Stripe and Slack.
                   </p>
                 </div>
               </div>
@@ -101,7 +101,7 @@ export default function ProcessAutomation() {
                 <div>
                   <h3 className="font-medium mb-2">5. Deploy & Train</h3>
                   <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                    We manage the full migration and train your team, ensuring everyone is empowered to use the new system to its full potential.
+                    We lead the migration and training process from First Principles, working closely with your executive team to drive a sustainable shift in mindset and organizational paradigms—ensuring this is not just another tool, but a true transformation in how your team operates.
                   </p>
                 </div>
               </div>
@@ -147,8 +147,8 @@ export default function ProcessAutomation() {
               <DollarSign className="h-5 w-5 text-indigo-500" />
               <h3 className="font-medium">Investment</h3>
             </div>
-            <p className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">Starting from $4,500 setup + optimization retainer</p>
-            <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-2">Includes full implementation, training, and ongoing optimization</p>
+            <p className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">Starting from $3,990 + optimization retainer</p>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-2">Includes assesment, implementation, training, and ongoing optimization</p>
           </div>
         </div>
       </section>

@@ -33,7 +33,7 @@ export default function About() {
                   <Target className="h-4 w-4" />
                 </div>
                 <p className="text-left">
-                  <span className="font-semibold text-indigo-700 dark:text-indigo-300">First,</span> the best strategy is one that gets built. An idea is just an idea until it&apos;s a functioning system, a live website, or a measurable result.
+                  <span className="font-semibold text-indigo-700 dark:text-indigo-300">First,</span> the best strategy is one that gets built. An idea is just an idea until it&apos;s a functioning system, a live website, or a measurable business result.
                 </p>
               </div>
             </div>
@@ -79,7 +79,7 @@ export default function About() {
                 </div>
                 <h4 className="font-medium">The Innovation House</h4>
               </div>
-              <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400">We build for ourselves—platforms like ElGrupito.com are our testing grounds to pressure-test AI, ops frameworks, and growth strategies.</p>
+              <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400">We build for ourselves—platforms like ElGrupito.com or Padelcrest.com are our testing grounds to pressure-test AI, ops frameworks, and growth strategies.</p>
             </div>
           </div>
           <div className="mt-6 rounded-lg border border-zinc-200/70 dark:border-zinc-800 p-6 bg-white/60 dark:bg-zinc-900/40">
@@ -99,7 +99,7 @@ export default function About() {
             </div>
             <div className="rounded-lg border border-zinc-200/70 dark:border-zinc-800 p-6">
               <h4 className="font-medium flex items-center gap-2"><BookOpen className="h-4 w-4 text-indigo-500" /> 2. We Teach As We Build</h4>
-              <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400">We document and empower your team—our aim is to make ourselves obsolete.</p>
+              <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400">We document and empower your team—our aim is to make ourselves obsolete. You will get tangible consulting, not just a report.</p>
             </div>
             <div className="rounded-lg border border-zinc-200/70 dark:border-zinc-800 p-6">
               <h4 className="font-medium flex items-center gap-2"><Unlock className="h-4 w-4 text-indigo-500" /> 3. Zero Vendor Lock-in</h4>
@@ -163,10 +163,10 @@ export default function About() {
                   className="font-semibold text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors underline decoration-2 underline-offset-2 hover:decoration-indigo-500"
                 >
                   David Atias
-                </a> isn&apos;t your typical agency founder. He&apos;s a Venezuelan-Spanish entrepreneur, a digital nomad, and a multi-disciplinary builder with a Master&apos;s in Entrepreneurship from Lund University.
+                </a> isn&apos;t your typical agency founder. He&apos;s an Hispanic entrepreneur, a digital nomad, and a multi-disciplinary builder with a Master&apos;s in Entrepreneurship from Lund University.
               </p>
             </div>
-            <p className="mt-3 text-zinc-600 dark:text-zinc-400 text-sm leading-relaxed">With 15+ years across 8 countries—programmer, growth marketer, journalist, and multi-time founder—he started Innovaly Services from Vietnam to bridge Latin entrepreneurs with world-class strategy and execution, without the Silicon Valley price tag or cultural disconnect.</p>
+            <p className="mt-3 text-zinc-600 dark:text-zinc-400 text-sm leading-relaxed">With 15+ years across 8 countries—fullstack marketer, programmer, growth marketer, journalist, and multi-time founder—he started Innovaly Services to bridge entrepreneurs with world-class strategy and execution, without the Silicon Valley price tag or cultural disconnect.</p>
             
             {/* Call to action */}
             <div className="mt-6 flex flex-wrap gap-3">
@@ -179,6 +179,8 @@ export default function About() {
               </a>
               <a 
                 href="https://linkedin.com/in/davidatias" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
               >
                 <span className="mr-2">🔗</span>

@@ -25,7 +25,7 @@ export default function InnovationDevelopment() {
           <div className="rounded-xl border border-zinc-200/70 dark:border-zinc-800 p-8 bg-white/60 dark:bg-zinc-900/40">
             <h2 className="text-2xl sm:text-3xl tracking-tight font-semibold mb-4">Founder-to-Founder Partnership</h2>
             <p className="text-zinc-600 dark:text-zinc-400 text-lg">
-              This service is an intensive, founder-to-founder partnership designed for two outcomes: first, to rigorously validate your idea and find product-market fit, and second, to build your actual platform.
+              A hands-on, founder-to-founder partnership led by our founder—who holds a master’s in entrepreneurship and innovation, and years of real-world experience validating ideas before even buying a domain or designing a logo. This approach saves thousands by testing for true product-market fit before you build.
             </p>
           </div>
         </div>

@@ -54,7 +54,7 @@ export default function Proof() {
                   </div>
                   <div className="rounded-lg border border-zinc-200/70 dark:border-zinc-800 p-4 text-center">
                     <div className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">$120k+</div>
-                    <div className="text-xs text-zinc-600 dark:text-zinc-400">ARR in 3 months</div>
+                    <div className="text-xs text-zinc-600 dark:text-zinc-400">ARR reached in 3 months</div>
                   </div>
                 </div>
                 <div className="rounded-lg border border-zinc-200/70 dark:border-zinc-800 p-4 bg-white/60 dark:bg-zinc-900/40">
@@ -79,77 +79,104 @@ export default function Proof() {
                 <div className="h-10 w-10 rounded-md bg-indigo-500/10 text-indigo-500 grid place-items-center ring-1 ring-indigo-500/20">
                   <Globe className="h-5 w-5" />
                 </div>
-                <h3 className="font-medium">E-commerce Platform</h3>
+                <h3 className="font-medium">
+                  <a
+                    href="https://dereferer.me/?https%3A//rspengineers.com"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="hover:underline"
+                  >
+                    Construction Company in USA
+                  </a>
+                </h3>
               </div>
               <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
-                Built a complete e-commerce solution for a Latin American fashion brand, including custom payment processing and inventory management.
+                We transformed their Webflow site into a growth engine—rewriting copy, optimizing content, and improving tech. We integrated lead management with Salesforce and simplified ad attribution tracking, getting a major boost in qualified leads.
               </p>
               <div className="space-y-2 text-xs">
                 <div className="flex justify-between">
-                  <span className="text-zinc-600 dark:text-zinc-400">Revenue Increase:</span>
-                  <span className="font-medium text-green-600">+340%</span>
+                  <span className="text-zinc-600 dark:text-zinc-400">Organic Google Searches:</span>
+                  <span className="font-medium text-green-600">+300%</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-zinc-600 dark:text-zinc-400">Conversion Rate:</span>
-                  <span className="font-medium text-green-600">+180%</span>
+                  <span className="font-medium text-green-600">+40%</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-zinc-600 dark:text-zinc-400">Page Load Speed:</span>
-                  <span className="font-medium text-green-600">0.8s</span>
+                  <span className="text-zinc-600 dark:text-zinc-400">Qualified Leads Generated:</span>
+                  <span className="font-medium text-green-600">+220%</span>
                 </div>
               </div>
             </div>
 
-            {/* Case Study 3 */}
+            {/* Case Study 3 - Padelcrest */}
             <div className="rounded-lg border border-zinc-200/70 dark:border-zinc-800 p-6 bg-white/60 dark:bg-zinc-900/40">
               <div className="flex items-center gap-3 mb-4">
                 <div className="h-10 w-10 rounded-md bg-indigo-500/10 text-indigo-500 grid place-items-center ring-1 ring-indigo-500/20">
                   <Smartphone className="h-5 w-5" />
                 </div>
-                <h3 className="font-medium">Mobile App Launch</h3>
+                <h3 className="font-medium">
+                  <a
+                    href="https://dereferer.me/?https%3A//padelcrest.com"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="hover:underline"
+                  >
+                    Padelcrest.com - Beta Platform
+                  </a>
+                </h3>
               </div>
               <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
-                Developed and launched a fitness tracking app for a startup, from concept to 10,000+ downloads in 6 months.
+                We incubated and developed this padel tournament platform from concept to paying customers in just 3 months. Through rapid idea validation and proof-of-concept, we achieved 6 paying customers using only organic marketing and guerrilla tactics—no social media presence required.
               </p>
               <div className="space-y-2 text-xs">
                 <div className="flex justify-between">
-                  <span className="text-zinc-600 dark:text-zinc-400">App Store Rating:</span>
-                  <span className="font-medium text-green-600">4.8/5</span>
+                  <span className="text-zinc-600 dark:text-zinc-400">Paying Customers:</span>
+                  <span className="font-medium text-green-600">6 in 3 months</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-zinc-600 dark:text-zinc-400">Downloads:</span>
-                  <span className="font-medium text-green-600">10,000+</span>
+                  <span className="text-zinc-600 dark:text-zinc-400">Time to First Revenue:</span>
+                  <span className="font-medium text-green-600">45 days</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-zinc-600 dark:text-zinc-400">User Retention:</span>
-                  <span className="font-medium text-green-600">78%</span>
+                  <span className="text-zinc-600 dark:text-zinc-400">Marketing Spend:</span>
+                  <span className="font-medium text-green-600">$0 (Organic only)</span>
                 </div>
               </div>
             </div>
 
-            {/* Case Study 4 */}
+            {/* Case Study 4 - AUTANA Properties */}
             <div className="rounded-lg border border-zinc-200/70 dark:border-zinc-800 p-6 bg-white/60 dark:bg-zinc-900/40">
               <div className="flex items-center gap-3 mb-4">
                 <div className="h-10 w-10 rounded-md bg-indigo-500/10 text-indigo-500 grid place-items-center ring-1 ring-indigo-500/20">
                   <Zap className="h-5 w-5" />
                 </div>
-                <h3 className="font-medium">Process Automation</h3>
+                <h3 className="font-medium">
+                  <a
+                    href="https://dereferer.me/?https%3A//autana.properties"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="hover:underline"
+                  >
+                    Boutique Real Estate in Spain
+                  </a>
+                </h3>
               </div>
               <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
-                Transformed a consulting firm&apos;s manual processes into an automated workflow, reducing operational overhead by 60%.
+                Helped the founder clarify their value prop, wrote compelling copy, and built a growth-engine site with HubSpot and real estate integrations. Our organic Google strategy delivered their first leads after months of zero traffic.
               </p>
               <div className="space-y-2 text-xs">
                 <div className="flex justify-between">
-                  <span className="text-zinc-600 dark:text-zinc-400">Time Saved:</span>
-                  <span className="font-medium text-green-600">25 hrs/week</span>
+                  <span className="text-zinc-600 dark:text-zinc-400">Organic Traffic Growth:</span>
+                  <span className="font-medium text-green-600">+400%</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-zinc-600 dark:text-zinc-400">Error Reduction:</span>
-                  <span className="font-medium text-green-600">-85%</span>
+                  <span className="text-zinc-600 dark:text-zinc-400">Lead Generation:</span>
+                  <span className="font-medium text-green-600">From 0 to 15+ monthly</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-zinc-600 dark:text-zinc-400">Client Satisfaction:</span>
-                  <span className="font-medium text-green-600">+95%</span>
+                  <span className="text-zinc-600 dark:text-zinc-400">Value Prop Clarity:</span>
+                  <span className="font-medium text-green-600">100% defined</span>
                 </div>
               </div>
             </div>

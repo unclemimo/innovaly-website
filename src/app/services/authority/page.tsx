@@ -14,7 +14,7 @@ export default function AuthorityBuilding() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 pt-16 pb-10 sm:pt-20 sm:pb-14">
           <h1 className="text-4xl sm:text-5xl tracking-tight font-semibold">Stop Hoping to Be Found. Start Being the Answer.</h1>
           <p className="mt-4 max-w-3xl text-zinc-600 dark:text-zinc-400 text-lg">
-            For any new startup or small business, being found on Google is not a luxury—it&apos;s the foundation of growth. Our Authority Building service is a quick-start toolkit designed to rapidly increase your discoverability.
+            For any new startup or small business, being found on Google or Chatgpt is not a luxury—it&apos;s the foundation of growth. Our Authority Building service is a quick-start toolkit designed to rapidly increase your discoverability.
           </p>
         </div>
       </section>
@@ -25,7 +25,7 @@ export default function AuthorityBuilding() {
           <div className="rounded-xl border border-zinc-200/70 dark:border-zinc-800 p-8 bg-white/60 dark:bg-zinc-900/40">
             <h2 className="text-2xl sm:text-3xl tracking-tight font-semibold mb-4">We Focus on One Powerful Outcome</h2>
             <p className="text-zinc-600 dark:text-zinc-400 text-lg">
-              Boosting your Domain Rating in a short amount of time, making you a credible and visible option for your customers from day one.
+              Boosting your Domain Rating and on-site metrics in a short amount of time, making you a credible and visible option for your customers from day one.
             </p>
           </div>
         </div>
@@ -58,7 +58,7 @@ export default function AuthorityBuilding() {
                 <h3 className="font-medium">High-Quality Backlinks</h3>
               </div>
               <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                Our flagship service. We secure 50-80 powerful backlinks from authoritative directories and sites, signaling to Google that you are a leader in your field.
+                Our flagship service. We secure 50-80 powerful and qualitybacklinks from authoritative directories and sites, signaling to Google and Chatgpt that you are a leader in your field.
               </p>
             </div>
 
@@ -115,7 +115,7 @@ export default function AuthorityBuilding() {
                 <DollarSign className="h-5 w-5 text-indigo-500" />
                 <h3 className="font-medium">Investment</h3>
               </div>
-              <p className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">Starting from $1,600</p>
+              <p className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">Starting from $1,999</p>
             </div>
             <div className="rounded-lg border border-zinc-200/70 dark:border-zinc-800 p-6 bg-white/60 dark:bg-zinc-900/40">
               <div className="flex items-center gap-3 mb-4">
