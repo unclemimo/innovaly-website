@@ -4,8 +4,8 @@ import { useForm, ValidationError } from '@formspree/react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-export default function Contact() {
-  const [state, handleSubmit] = useForm('mblzozpv');
+export default function Apply() {
+  const [state, handleSubmit] = useForm('mdkwgwjq');
 
   if (state.succeeded) {
     return (
@@ -20,9 +20,9 @@ export default function Contact() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <h1 className="text-4xl font-bold mb-4 text-green-600 dark:text-green-400">Message Sent!</h1>
+              <h1 className="text-4xl font-bold mb-4 text-green-600 dark:text-green-400">Application Submitted!</h1>
               <p className="text-xl text-zinc-600 dark:text-zinc-400 mb-8">
-                Thank you for reaching out! We've received your message and will get back to you within 24 hours.
+                Thank you for your interest in joining our team! We've received your application and will review it carefully.
               </p>
             </div>
             
@@ -33,29 +33,35 @@ export default function Contact() {
                   <div className="w-6 h-6 bg-indigo-100 dark:bg-indigo-900/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                     <span className="text-sm font-medium text-indigo-600 dark:text-indigo-400">1</span>
                   </div>
-                  <p className="text-zinc-600 dark:text-zinc-400">We'll review your project requirements and prepare a detailed proposal</p>
+                  <p className="text-zinc-600 dark:text-zinc-400">We'll review your application and portfolio within 3-5 business days</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 bg-indigo-100 dark:bg-indigo-900/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                     <span className="text-sm font-medium text-indigo-600 dark:text-indigo-400">2</span>
                   </div>
-                  <p className="text-zinc-600 dark:text-zinc-400">Schedule a discovery call to discuss your project in detail</p>
+                  <p className="text-zinc-600 dark:text-zinc-400">If selected, we'll schedule an initial interview to discuss your experience</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 bg-indigo-100 dark:bg-indigo-900/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                     <span className="text-sm font-medium text-indigo-600 dark:text-indigo-400">3</span>
                   </div>
-                  <p className="text-zinc-600 dark:text-zinc-400">Present our solution and timeline for your project</p>
+                  <p className="text-zinc-600 dark:text-zinc-400">We'll conduct a technical assessment and team fit evaluation</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-6 h-6 bg-indigo-100 dark:bg-indigo-900/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="text-sm font-medium text-indigo-600 dark:text-indigo-400">4</span>
+                  </div>
+                  <p className="text-zinc-600 dark:text-zinc-400">Final decision and offer discussion</p>
                 </div>
               </div>
             </div>
             
             <div className="mt-8">
               <a 
-                href="/" 
+                href="/careers" 
                 className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition-colors"
               >
-                Back to Home
+                View Other Positions
               </a>
             </div>
           </div>
@@ -74,94 +80,87 @@ export default function Contact() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-              Let's Build Something Amazing
+              Join Our Team
             </h1>
             <p className="text-xl text-zinc-600 dark:text-zinc-400 max-w-3xl mx-auto">
-              Ready to transform your business with cutting-edge technology? Tell us about your project and let's create something extraordinary together.
+              Ready to build something extraordinary? We're looking for talented developers who share our passion for execution and innovation.
             </p>
           </div>
 
           <div className="grid lg:grid-cols-3 gap-12">
-            {/* Contact Information */}
+            {/* Company Information */}
             <div className="lg:col-span-1 space-y-8">
               <div className="bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20 p-8 rounded-2xl">
-                <h2 className="text-2xl font-bold mb-6 text-indigo-900 dark:text-indigo-100">Get in Touch</h2>
+                <h2 className="text-2xl font-bold mb-6 text-indigo-900 dark:text-indigo-100">Why Innovaly?</h2>
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-900/20 rounded-lg flex items-center justify-center flex-shrink-0">
                       <svg className="w-6 h-6 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-zinc-900 dark:text-zinc-100 mb-1">Email</h3>
-                      <a href="mailto:weare@innovaly.services" className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors">
-                        weare@innovaly.services
-                      </a>
+                      <h3 className="font-semibold text-zinc-900 dark:text-zinc-100 mb-1">Cutting-Edge Technology</h3>
+                      <p className="text-zinc-600 dark:text-zinc-400 text-sm">Work with AI-augmented workflows, modern tech stacks, and the latest development tools</p>
                     </div>
                   </div>
                   
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-900/20 rounded-lg flex items-center justify-center flex-shrink-0">
                       <svg className="w-6 h-6 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-zinc-900 dark:text-zinc-100 mb-1">Response Time</h3>
-                      <p className="text-zinc-600 dark:text-zinc-400">We typically respond within 24 hours</p>
+                      <h3 className="font-semibold text-zinc-900 dark:text-zinc-100 mb-1">Remote-First Culture</h3>
+                      <p className="text-zinc-600 dark:text-zinc-400 text-sm">Work from anywhere with a globally distributed team of talented builders</p>
                     </div>
                   </div>
                   
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-900/20 rounded-lg flex items-center justify-center flex-shrink-0">
                       <svg className="w-6 h-6 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-zinc-900 dark:text-zinc-100 mb-1">Office Hours</h3>
-                      <p className="text-zinc-600 dark:text-zinc-400">Monday - Friday, 9:00 AM - 6:00 PM EST</p>
+                      <h3 className="font-semibold text-zinc-900 dark:text-zinc-100 mb-1">Real Impact</h3>
+                      <p className="text-zinc-600 dark:text-zinc-400 text-sm">Build products that matter and see the direct impact of your work on real businesses</p>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div className="bg-gradient-to-br from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 p-8 rounded-2xl">
-                <h3 className="text-xl font-bold mb-6 text-purple-900 dark:text-purple-100">Why Choose Innovaly?</h3>
+                <h3 className="text-xl font-bold mb-6 text-purple-900 dark:text-purple-100">What We're Looking For</h3>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-zinc-600 dark:text-zinc-400">Expert development team with 10+ years experience</p>
+                    <p className="text-zinc-600 dark:text-zinc-400 text-sm">Problem-solvers who prefer building over attending meetings</p>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-zinc-600 dark:text-zinc-400">Custom solutions tailored to your business needs</p>
+                    <p className="text-zinc-600 dark:text-zinc-400 text-sm">Developers obsessed with execution and quality</p>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-zinc-600 dark:text-zinc-400">Modern technologies and best practices</p>
+                    <p className="text-zinc-600 dark:text-zinc-400 text-sm">Team players who thrive in startup environments</p>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-zinc-600 dark:text-zinc-400">Ongoing support and maintenance</p>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-zinc-600 dark:text-zinc-400">Transparent communication throughout the project</p>
+                    <p className="text-zinc-600 dark:text-zinc-400 text-sm">Passionate about cutting-edge technology and AI tools</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Contact Form */}
+            {/* Application Form */}
             <div className="lg:col-span-2">
               <div className="bg-white dark:bg-zinc-900 p-8 rounded-2xl shadow-xl border border-zinc-200 dark:border-zinc-800">
                 <div className="mb-8">
-                  <h2 className="text-3xl font-bold mb-4 text-zinc-900 dark:text-zinc-100">Start Your Project</h2>
+                  <h2 className="text-3xl font-bold mb-4 text-zinc-900 dark:text-zinc-100">Apply Now</h2>
                   <p className="text-zinc-600 dark:text-zinc-400">
-                    Fill out the form below and we'll get back to you with a detailed proposal tailored to your needs.
+                    Fill out the application form below and let us know why you'd be a great fit for our team.
                   </p>
                 </div>
 
@@ -191,26 +190,13 @@ export default function Contact() {
                         name="email"
                         required
                         className="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-zinc-800 dark:text-zinc-100 transition-colors"
-                        placeholder="john@company.com"
+                        placeholder="john@example.com"
                       />
                       <ValidationError prefix="Email" field="email" errors={state.errors} />
                     </div>
                   </div>
 
                   <div className="grid md:grid-cols-2 gap-6">
-                    <div className="space-y-2">
-                      <label htmlFor="company" className="block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
-                        Company
-                      </label>
-                      <input
-                        type="text"
-                        id="company"
-                        name="company"
-                        className="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-zinc-800 dark:text-zinc-100 transition-colors"
-                        placeholder="Your Company"
-                      />
-                      <ValidationError prefix="Company" field="company" errors={state.errors} />
-                    </div>
                     <div className="space-y-2">
                       <label htmlFor="phone" className="block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
                         Phone Number
@@ -224,57 +210,110 @@ export default function Contact() {
                       />
                       <ValidationError prefix="Phone" field="phone" errors={state.errors} />
                     </div>
+                    <div className="space-y-2">
+                      <label htmlFor="location" className="block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
+                        Location *
+                      </label>
+                      <input
+                        type="text"
+                        id="location"
+                        name="location"
+                        required
+                        className="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-zinc-800 dark:text-zinc-100 transition-colors"
+                        placeholder="Da Nang, Vietnam"
+                      />
+                      <ValidationError prefix="Location" field="location" errors={state.errors} />
+                    </div>
                   </div>
 
                   <div className="space-y-2">
-                    <label htmlFor="service" className="block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
-                      Service Interest
+                    <label htmlFor="position" className="block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
+                      Position Applying For *
                     </label>
                     <select
-                      id="service"
-                      name="service"
-                      className="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-zinc-800 dark:text-zinc-100 transition-colors"
-                    >
-                      <option value="">Select a service</option>
-                      <option value="web-development">Web Development</option>
-                      <option value="mobile-development">Mobile Development</option>
-                      <option value="ui-ux-design">UI/UX Design</option>
-                      <option value="consulting">Consulting</option>
-                      <option value="maintenance">Maintenance & Support</option>
-                      <option value="other">Other</option>
-                    </select>
-                    <ValidationError prefix="Service" field="service" errors={state.errors} />
-                  </div>
-
-                  <div className="space-y-2">
-                    <label htmlFor="subject" className="block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
-                      Subject *
-                    </label>
-                    <input
-                      type="text"
-                      id="subject"
-                      name="subject"
+                      id="position"
+                      name="position"
                       required
                       className="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-zinc-800 dark:text-zinc-100 transition-colors"
-                      placeholder="What can we help you with?"
-                    />
-                    <ValidationError prefix="Subject" field="subject" errors={state.errors} />
+                    >
+                      <option value="">Select a position</option>
+                      <option value="senior-full-stack-developer">Senior Full Stack Developer & Technical Lead</option>
+                      <option value="mid-senior-full-stack-developer">Mid-Senior Full Stack Developer (Frontend Focus)</option>
+                      <option value="quality-engineer">Quality Engineer (Part-Time)</option>
+                      <option value="other">Other Position</option>
+                    </select>
+                    <ValidationError prefix="Position" field="position" errors={state.errors} />
                   </div>
 
                   <div className="space-y-2">
-                    <label htmlFor="message" className="block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
-                      Project Details *
+                    <label htmlFor="experience" className="block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
+                      Years of Experience *
+                    </label>
+                    <select
+                      id="experience"
+                      name="experience"
+                      required
+                      className="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-zinc-800 dark:text-zinc-100 transition-colors"
+                    >
+                      <option value="">Select experience level</option>
+                      <option value="0-1">0-1 years</option>
+                      <option value="2-3">2-3 years</option>
+                      <option value="4-5">4-5 years</option>
+                      <option value="6-8">6-8 years</option>
+                      <option value="9+">9+ years</option>
+                    </select>
+                    <ValidationError prefix="Experience" field="experience" errors={state.errors} />
+                  </div>
+
+                  <div className="space-y-2">
+                    <label htmlFor="portfolio" className="block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
+                      Portfolio/GitHub/LinkedIn *
+                    </label>
+                    <input
+                      type="url"
+                      id="portfolio"
+                      name="portfolio"
+                      required
+                      className="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-zinc-800 dark:text-zinc-100 transition-colors"
+                      placeholder="https://github.com/yourusername or https://yourportfolio.com"
+                    />
+                    <ValidationError prefix="Portfolio" field="portfolio" errors={state.errors} />
+                  </div>
+
+                  <div className="space-y-2">
+                    <label htmlFor="cover_letter" className="block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
+                      Cover Letter *
                     </label>
                     <textarea
-                      id="message"
-                      name="message"
+                      id="cover_letter"
+                      name="cover_letter"
                       required
                       rows={6}
                       className="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-zinc-800 dark:text-zinc-100 transition-colors resize-none"
-                      placeholder="Tell us about your project, goals, timeline, and any specific requirements..."
+                      placeholder="Tell us about yourself, your experience, why you want to join Innovaly, and what makes you a great fit for this role..."
                     />
-                    <ValidationError prefix="Message" field="message" errors={state.errors} />
+                    <ValidationError prefix="Cover Letter" field="cover_letter" errors={state.errors} />
                   </div>
+
+                  <div className="space-y-2">
+                    <label htmlFor="availability" className="block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
+                      Availability *
+                    </label>
+                    <select
+                      id="availability"
+                      name="availability"
+                      required
+                      className="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-zinc-800 dark:text-zinc-100 transition-colors"
+                    >
+                      <option value="">Select availability</option>
+                      <option value="immediate">Immediate (within 2 weeks)</option>
+                      <option value="1-month">1 month notice</option>
+                      <option value="2-months">2 months notice</option>
+                      <option value="3-months">3+ months notice</option>
+                    </select>
+                    <ValidationError prefix="Availability" field="availability" errors={state.errors} />
+                  </div>
+
 
                   <div className="pt-4">
                     <button
@@ -288,10 +327,10 @@ export default function Contact() {
                             <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                             <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                           </svg>
-                          <span>Sending Message...</span>
+                          <span>Submitting Application...</span>
                         </div>
                       ) : (
-                        'Send Message'
+                        'Submit Application'
                       )}
                     </button>
                     <ValidationError errors={state.errors} />
