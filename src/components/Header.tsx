@@ -77,7 +77,6 @@ export default function Header() {
             <Link href="/proof" className="px-2 xl:px-3 py-2 text-sm font-medium rounded-md hover:bg-zinc-100 dark:hover:bg-zinc-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60 transition-colors">Our Proof</Link>
             <Link href="/ecosystem" className="px-2 xl:px-3 py-2 text-sm font-medium rounded-md hover:bg-zinc-100 dark:hover:bg-zinc-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60 transition-colors">Our Ecosystem</Link>
             <Link href="/careers" className="px-2 xl:px-3 py-2 text-sm font-medium rounded-md hover:bg-zinc-100 dark:hover:bg-zinc-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60 transition-colors">Careers</Link>
-            <Link href="/blog" className="px-2 xl:px-3 py-2 text-sm font-medium rounded-md hover:bg-zinc-100 dark:hover:bg-zinc-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60 transition-colors">Insights</Link>
           </nav>
 
           {/* Right side buttons */}
@@ -146,13 +145,6 @@ export default function Header() {
               onClick={closeMobileMenu}
             >
               Careers
-            </Link>
-            <Link 
-              href="/blog" 
-              className="block px-3 py-2.5 text-sm font-medium rounded-md hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-colors" 
-              onClick={closeMobileMenu}
-            >
-              Insights
             </Link>
             <Link 
               href="/contact" 

@@ -24,19 +24,19 @@ export default function Careers() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl tracking-tight font-semibold mb-8">Current Openings</h2>
           
-          {/* Job 1: Head of Technology */}
+          {/* Job 1: Principal Engineer */}
           <div className="rounded-xl border border-zinc-200/70 dark:border-zinc-800 p-8 bg-white/60 dark:bg-zinc-900/40 mb-6">
             <div className="flex items-start justify-between mb-6">
               <div>
-                <h3 className="text-xl font-semibold mb-2">Head of Technology</h3>
+                <h3 className="text-xl font-semibold mb-2">Senior Full Stack Developer & Technical Lead</h3>
                 <div className="flex items-center gap-4 text-sm text-zinc-600 dark:text-zinc-400">
                   <div className="flex items-center gap-1">
                     <MapPin className="h-4 w-4" />
-                    Remote
+                    Remote (Da Nang office space available)
                   </div>
                   <div className="flex items-center gap-1">
                     <Clock className="h-4 w-4" />
-                    Full-time
+                    Full-time (Async with some Vietnam timezone overlap)
                   </div>
                 </div>
               </div>
@@ -48,7 +48,7 @@ export default function Careers() {
             <div className="mb-6">
               <h4 className="font-medium mb-3">The Role:</h4>
               <p className="text-zinc-600 dark:text-zinc-400 mb-4">
-                We are looking for a builder, not just a manager. As our Head of Technology, you will be the architectural and execution leader for both client platforms and our internal ventures. You are a seasoned engineer with deep startup experience, comfortable working cross-functionally with product, design, and marketing. You live and breathe modern development, are highly organized, and have a bias for action. Your mission is to lead a distributed team in building high-quality, scalable products, fast.
+                We're seeking a Senior Full Stack Developer & Technical Lead who embodies the startup builder mindset. This isn't just a technical role—it's for someone who has been in the trenches of building products from scratch, who understands the intersection of technology and business, and who thrives in environments where the roadmap is shaped by vision rather than rigid specifications. You'll work directly with our CEO to translate vision into technical strategy, build alongside a mid-senior frontend-focused developer, and have significant autonomy to shape our engineering direction. Your expertise in AI and cutting-edge development tools will be crucial as we establish advanced workflows using Factory, Cursor.ai, Onlook, and other AI agents; and spec-driven design systems like BMAD-Method.
               </p>
             </div>
             
@@ -56,23 +56,34 @@ export default function Careers() {
               <div>
                 <h4 className="font-medium mb-3">What you&apos;ll do:</h4>
                 <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
-                  <li>• Lead the technical strategy and architecture for all projects</li>
-                  <li>• Mentor and manage a team of in-house developers and contractors</li>
-                  <li>• Be hands-on, writing code and solving complex technical challenges</li>
-                  <li>• Implement and refine our AI-augmented development workflows</li>
-                  <li>• Ensure the highest standards of code quality and performance</li>
+                  <li>• Architect and build scalable products from concept to deployment</li>
+                  <li>• Lead technical strategy and make key technology decisions</li>
+                  <li>• Mentor and collaborate with our frontend-focused developer</li>
+                  <li>• Establish AI-augmented development workflows and best practices</li>
+                  <li>• Manage multiple projects in parallel with complete autonomy</li>
+                  <li>• Help shape and organize our growing engineering team</li>
+                  <li>• Stay current with latest AI tools and development practices (September 2025+)</li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-medium mb-3">Who you are:</h4>
                 <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
-                  <li>• Experienced in leading engineering teams in a startup environment</li>
-                  <li>• A &quot;builder&quot; at heart, with a portfolio of products you&apos;ve shipped</li>
-                  <li>• Highly organized and skilled in cross-functional collaboration</li>
-                  <li>• Up-to-date with the modern tech stack (Next.js, Supabase, AI tools)</li>
-                  <li>• Bonus: You&apos;ve founded a startup before. You know the journey</li>
+                  <li>• <strong>Startup founder or builder experience</strong> - you've built businesses before</li>
+                  <li>• Full-stack engineer with strong backend expertise and frontend capabilities</li>
+                  <li>• Comfortable working with minimal detailed roadmaps, driven by vision</li>
+                  <li>• Experienced in leading technical teams and making architectural decisions</li>
+                  <li>• Up-to-date with AI tools: Factory, Cursor.ai, Onlook, Agno, and similar platforms</li>
+                  <li>• Proven ability to ship products and work cross-functionally</li>
+                  <li>• Located in Vietnam (Da Nang preferred)</li>
                 </ul>
               </div>
+            </div>
+            
+            <div className="mb-6 p-4 bg-indigo-50 dark:bg-indigo-950/20 rounded-lg border border-indigo-200 dark:border-indigo-800">
+              <h4 className="font-medium text-indigo-900 dark:text-indigo-100 mb-2">Why This Role is Different:</h4>
+              <p className="text-sm text-indigo-700 dark:text-indigo-300">
+                This is a senior technical role with significant autonomy and growth potential. You'll work directly with leadership to shape our technology direction and have the opportunity to grow into a more senior position as we scale. We're looking for someone who thinks like a builder and is excited about joining an early-stage startup.
+              </p>
             </div>
             
             <Link href="/contact" className="inline-flex items-center rounded-md bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 px-4 py-2 text-sm font-medium hover:opacity-95">
@@ -89,11 +100,11 @@ export default function Careers() {
                 <div className="flex items-center gap-4 text-sm text-zinc-600 dark:text-zinc-400">
                   <div className="flex items-center gap-1">
                     <MapPin className="h-4 w-4" />
-                    Remote
+                    Remote (Da Nang preferred)
                   </div>
                   <div className="flex items-center gap-1">
                     <Clock className="h-4 w-4" />
-                    Full-time
+                    Full-time (Async with some Vietnam timezone overlap)
                   </div>
                 </div>
               </div>
@@ -105,7 +116,7 @@ export default function Careers() {
             <div className="mb-6">
               <h4 className="font-medium mb-3">The Role:</h4>
               <p className="text-zinc-600 dark:text-zinc-400 mb-4">
-                You are a skilled developer who loves crafting beautiful, high-performance user interfaces. While you&apos;re comfortable across the stack, your passion lies in the frontend. You&apos;ll work within our ecosystem to build dynamic, responsive, and engaging web applications for our clients and our own SaaS products. You are proficient in our tech stack and are always eager to learn and implement new tools.
+                You are a detail-obsessed frontend specialist who thrives on building pixel-perfect, high-performance user interfaces. Your expertise spans modern web frameworks like Next.js and TypeScript, plus native mobile development with Expo. You&apos;re passionate about leveraging AI tools for frontend development, working with design systems, and optimizing time-to-market while maintaining exceptional quality. You&apos;ll work within our ecosystem using cutting-edge tools like 21st.dev (Magic MCP), shadcn/ui, and other AI-augmented development platforms to build dynamic, responsive applications for our clients and internal products.
               </p>
             </div>
             
@@ -113,20 +124,25 @@ export default function Careers() {
               <div>
                 <h4 className="font-medium mb-3">What you&apos;ll do:</h4>
                 <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
-                  <li>• Develop, test, and deploy user-facing features using Next.js and modern frontend frameworks</li>
-                  <li>• Collaborate with designers to translate Figma mockups into pixel-perfect, functional components</li>
-                  <li>• Integrate with backend services and databases (like Supabase)</li>
-                  <li>• Optimize applications for maximum speed and scalability</li>
-                  <li>• Participate in code reviews and contribute to our high-quality standards</li>
+                  <li>• Build responsive web applications using Next.js, TypeScript, and modern frontend frameworks</li>
+                  <li>• Develop native mobile applications using Expo and React Native</li>
+                  <li>• Leverage AI tools and platforms like 21st.dev (Magic MCP) for rapid frontend development</li>
+                  <li>• Work with design systems using shadcn/ui and other component libraries</li>
+                  <li>• Translate Figma designs into pixel-perfect, functional components</li>
+                  <li>• Optimize applications for maximum performance and user experience</li>
+                  <li>• Maintain high code quality through systematic development practices</li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-medium mb-3">Who you are:</h4>
                 <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
-                  <li>• Proven experience as a Full Stack Developer with a strong emphasis on the frontend</li>
-                  <li>• Expertise in React, Next.js, TypeScript, and modern CSS</li>
-                  <li>• Familiarity with backend development and database integration</li>
-                  <li>• A keen eye for detail and a commitment to creating exceptional user experiences</li>
+                  <li>• <strong>Portfolio required:</strong> Please share links to your previous work</li>
+                  <li>• 3+ years experience with React, Next.js, TypeScript, and modern CSS</li>
+                  <li>• Experience with Expo and React Native for native mobile development</li>
+                  <li>• Familiarity with AI-powered development tools and workflows</li>
+                  <li>• Experience with design systems and component libraries (shadcn/ui preferred)</li>
+                  <li>• Detail-obsessed with a systematic approach to development</li>
+                  <li>• Located in Vietnam (Da Nang preferred)</li>
                 </ul>
               </div>
             </div>
@@ -141,7 +157,7 @@ export default function Careers() {
           <div className="rounded-xl border border-zinc-200/70 dark:border-zinc-800 p-8 bg-white/60 dark:bg-zinc-900/40">
             <div className="flex items-start justify-between mb-6">
               <div>
-                <h3 className="text-xl font-semibold mb-2">QA Engineer (Part-Time)</h3>
+                <h3 className="text-xl font-semibold mb-2">Quality Engineer (Part-Time)</h3>
                 <div className="flex items-center gap-4 text-sm text-zinc-600 dark:text-zinc-400">
                   <div className="flex items-center gap-1">
                     <MapPin className="h-4 w-4" />
@@ -161,7 +177,7 @@ export default function Careers() {
             <div className="mb-6">
               <h4 className="font-medium mb-3">The Role:</h4>
               <p className="text-zinc-600 dark:text-zinc-400 mb-4">
-                Quality is our flagship value. We are seeking a meticulous Part-Time QA Engineer to be the guardian of that value. You will be responsible for ensuring that every product we ship is robust, bug-free, and delivers an exceptional user experience. You will work hand-in-hand with our developers, contractors, and AI agents, implementing a comprehensive quality assurance process from start to finish.
+                Quality is our flagship value. We are seeking a strategic Part-Time Quality Engineer to be the guardian of that value across our entire development process. You will go beyond traditional testing to establish quality standards, processes, and culture. You will work hand-in-hand with our developers, contractors, and AI agents to ensure that every product we ship not only meets technical requirements but delivers exceptional user experience and maintains our high standards throughout the development lifecycle.
               </p>
             </div>
             
@@ -169,20 +185,25 @@ export default function Careers() {
               <div>
                 <h4 className="font-medium mb-3">What you&apos;ll do:</h4>
                 <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
-                  <li>• Develop and execute detailed test plans and test cases</li>
-                  <li>• Perform manual and automated testing for web applications</li>
-                  <li>• Identify, document, and track bugs through to resolution</li>
-                  <li>• Collaborate with the development team to integrate QA into the entire development lifecycle</li>
-                  <li>• Leverage modern debugging and QA tools, including AI-powered solutions like CodeRabbit and Cursor</li>
+                  <li>• Establish and maintain quality standards and processes across all projects</li>
+                  <li>• Design and implement comprehensive testing strategies (manual and automated)</li>
+                  <li>• Conduct code reviews and quality audits to ensure best practices</li>
+                  <li>• Monitor and analyze quality metrics to identify improvement opportunities</li>
+                  <li>• Collaborate with developers to integrate quality practices into the development workflow</li>
+                  <li>• Leverage AI-powered tools like CodeRabbit and Cursor for enhanced quality assurance</li>
+                  <li>• Document and communicate quality standards and processes to the team</li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-medium mb-3">Who you are:</h4>
                 <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
-                  <li>• Proven experience in a QA role, with a strong understanding of software testing methodologies</li>
-                  <li>• Detail-oriented with a passion for finding and fixing problems</li>
-                  <li>• Experience with both manual and automated testing</li>
-                  <li>• An excellent communicator who can work effectively with a distributed team</li>
+                  <li>• 3+ years experience in Quality Engineering or QA with a focus on process improvement</li>
+                  <li>• Strong understanding of software testing methodologies and quality assurance principles</li>
+                  <li>• Experience with both manual and automated testing frameworks</li>
+                  <li>• Ability to establish quality standards and processes from scratch</li>
+                  <li>• Excellent communication skills for working with distributed teams</li>
+                  <li>• Detail-oriented with a strategic mindset for quality improvement</li>
+                  <li>• Familiarity with modern development tools and AI-powered quality solutions</li>
                 </ul>
               </div>
             </div>
@@ -228,6 +249,41 @@ export default function Careers() {
               <p className="text-sm text-zinc-600 dark:text-zinc-400">
                 Build products that matter, work on our own successful ventures, and see the direct impact of your work on real businesses.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Growth & Benefits */}
+      <section className="py-10 sm:py-14 border-t border-zinc-200/70 dark:border-zinc-800">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl sm:text-3xl tracking-tight font-semibold mb-8 text-center">Growth & Benefits</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="rounded-xl border border-zinc-200/70 dark:border-zinc-800 p-8 bg-white/60 dark:bg-zinc-900/40">
+              <h3 className="text-xl font-semibold mb-4">We Invest in Our People</h3>
+              <p className="text-zinc-600 dark:text-zinc-400 mb-4">
+                We don't see our team members as numbers on a payroll. We believe in fair treatment and direct correlation between company growth and your personal development. As an early-stage startup, we're committed to growing together.
+              </p>
+              <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+                <li>• <strong>Progressive Growth Plan:</strong> Unlock bonuses and salary increases based on milestones</li>
+                <li>• <strong>Regular Performance Reviews:</strong> Quarterly progress assessments with clear growth paths</li>
+                <li>• <strong>Direct Impact:</strong> Your contributions directly influence company success and your rewards</li>
+                <li>• <strong>Long-term Vision:</strong> We're building for the next level, and you'll be part of that journey</li>
+              </ul>
+            </div>
+            
+            <div className="rounded-xl border border-zinc-200/70 dark:border-zinc-800 p-8 bg-white/60 dark:bg-zinc-900/40">
+              <h3 className="text-xl font-semibold mb-4">Comprehensive Benefits</h3>
+              <p className="text-zinc-600 dark:text-zinc-400 mb-4">
+                After your initial months with us, our solid team members receive comprehensive benefits that grow with the company.
+              </p>
+              <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+                <li>• <strong>Health Insurance:</strong> Comprehensive medical coverage for you and your family</li>
+                <li>• <strong>Wellness Stipends:</strong> Gym memberships and wellness activities</li>
+                <li>• <strong>Equipment & Tools:</strong> Latest work computers and professional development tools</li>
+                <li>• <strong>Learning Budget:</strong> Courses, conferences, and skill development opportunities</li>
+                <li>• <strong>Flexible Benefits:</strong> Customizable benefits package based on your needs</li>
+              </ul>
             </div>
           </div>
         </div>
