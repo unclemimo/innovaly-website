@@ -24,11 +24,11 @@ export default function Careers() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl tracking-tight font-semibold mb-8">Current Openings</h2>
           
-          {/* Job 1: Principal Engineer */}
+          {/* Job 1: Technical Lead */}
           <div className="rounded-xl border border-zinc-200/70 dark:border-zinc-800 p-8 bg-white/60 dark:bg-zinc-900/40 mb-6">
             <div className="flex items-start justify-between mb-6">
               <div>
-                <h3 className="text-xl font-semibold mb-2">Senior Full Stack Developer & Technical Lead</h3>
+                <h3 className="text-xl font-semibold mb-2">Technical Lead & Strategic Architect</h3>
                 <div className="flex items-center gap-4 text-sm text-zinc-600 dark:text-zinc-400">
                   <div className="flex items-center gap-1">
                     <MapPin className="h-4 w-4" />
@@ -48,7 +48,7 @@ export default function Careers() {
             <div className="mb-6">
               <h4 className="font-medium mb-3">The Role:</h4>
               <p className="text-zinc-600 dark:text-zinc-400 mb-4">
-                We&apos;re seeking a Senior Full Stack Developer & Technical Lead who embodies the startup builder mindset. This isn&apos;t just a technical role—it&apos;s for someone who has been in the trenches of building products from scratch, who understands the intersection of technology and business, and who thrives in environments where the roadmap is shaped by vision rather than rigid specifications. You&apos;ll work directly with our CEO to translate vision into technical strategy, build alongside a mid-senior frontend-focused developer, and have significant autonomy to shape our engineering direction. Your expertise in AI and cutting-edge development tools will be crucial as we establish advanced workflows using Factory, Cursor.ai, Onlook, and other AI agents; and spec-driven design systems like BMAD-Method.
+                We&apos;re seeking a Technical Lead & Strategic Architect who embodies the startup builder mindset. This is a strategic leadership role for someone who has been in the trenches of building products from scratch, understands the intersection of technology and business, and thrives in environments where the roadmap is shaped by vision rather than rigid specifications. You&apos;ll work directly with our CEO to translate vision into technical strategy, lead our growing engineering team, and have significant autonomy to shape our engineering direction. Your expertise in AI and cutting-edge development tools will be crucial as we establish advanced workflows using Factory, Cursor.ai, Onlook, and other AI agents; and spec-driven design systems like BMAD-Method.
               </p>
             </div>
             
@@ -56,20 +56,20 @@ export default function Careers() {
               <div>
                 <h4 className="font-medium mb-3">What you&apos;ll do:</h4>
                 <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
-                  <li>• Architect and build scalable products from concept to deployment</li>
-                  <li>• Lead technical strategy and make key technology decisions</li>
-                  <li>• Mentor and collaborate with our frontend-focused developer</li>
+                  <li>• Lead technical strategy and make critical architectural decisions</li>
+                  <li>• Mentor and manage our backend and frontend development teams</li>
                   <li>• Establish AI-augmented development workflows and best practices</li>
-                  <li>• Manage multiple projects in parallel with complete autonomy</li>
-                  <li>• Help shape and organize our growing engineering team</li>
-                  <li>• Stay current with latest AI tools and development practices (September 2025+)</li>
+                  <li>• Drive technical roadmap and technology choices alongside the CEO</li>
+                  <li>• Recruit and onboard engineering talent for our Vietnam team</li>
+                  <li>• Ensure quality standards and technical excellence across all projects</li>
+                  <li>• Stay current with latest AI tools and development practices</li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-medium mb-3">Who you are:</h4>
                 <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
                   <li>• <strong>Startup founder or builder experience</strong> - you&apos;ve built businesses before</li>
-                  <li>• Full-stack engineer with strong backend expertise and frontend capabilities</li>
+                  <li>• 5+ years full-stack experience with strong leadership capabilities</li>
                   <li>• Comfortable working with minimal detailed roadmaps, driven by vision</li>
                   <li>• Experienced in leading technical teams and making architectural decisions</li>
                   <li>• Up-to-date with AI tools: Factory, Cursor.ai, Onlook, Agno, and similar platforms</li>
@@ -82,7 +82,7 @@ export default function Careers() {
             <div className="mb-6 p-4 bg-indigo-50 dark:bg-indigo-950/20 rounded-lg border border-indigo-200 dark:border-indigo-800">
               <h4 className="font-medium text-indigo-900 dark:text-indigo-100 mb-2">Why This Role is Different:</h4>
               <p className="text-sm text-indigo-700 dark:text-indigo-300">
-                This is a senior technical role with significant autonomy and growth potential. You&apos;ll work directly with leadership to shape our technology direction and have the opportunity to grow into a more senior position as we scale. We&apos;re looking for someone who thinks like a builder and is excited about joining an early-stage startup.
+                This is a strategic technical leadership role with significant autonomy and growth potential. You&apos;ll work directly with leadership to shape our technology direction, lead our engineering team, and have the opportunity to grow into a more senior position as we scale. We&apos;re looking for someone who thinks like a builder and is excited about joining an early-stage startup.
               </p>
             </div>
             
@@ -92,11 +92,11 @@ export default function Careers() {
             </Link>
           </div>
 
-          {/* Job 2: Mid-Senior Full Stack Developer */}
+          {/* Job 2: Backend Developer */}
           <div className="rounded-xl border border-zinc-200/70 dark:border-zinc-800 p-8 bg-white/60 dark:bg-zinc-900/40 mb-6">
             <div className="flex items-start justify-between mb-6">
               <div>
-                <h3 className="text-xl font-semibold mb-2">Mid-Senior Full Stack Developer (Frontend Focus)</h3>
+                <h3 className="text-xl font-semibold mb-2">Senior Full Stack Developer (Backend Focus)</h3>
                 <div className="flex items-center gap-4 text-sm text-zinc-600 dark:text-zinc-400">
                   <div className="flex items-center gap-1">
                     <MapPin className="h-4 w-4" />
@@ -116,7 +116,7 @@ export default function Careers() {
             <div className="mb-6">
               <h4 className="font-medium mb-3">The Role:</h4>
               <p className="text-zinc-600 dark:text-zinc-400 mb-4">
-                You are a detail-obsessed frontend specialist who thrives on building pixel-perfect, high-performance user interfaces. Your expertise spans modern web frameworks like Next.js and TypeScript, plus native mobile development with Expo. You&apos;re passionate about leveraging AI tools for frontend development, working with design systems, and optimizing time-to-market while maintaining exceptional quality. You&apos;ll work within our ecosystem using cutting-edge tools like 21st.dev (Magic MCP), shadcn/ui, and other AI-augmented development platforms to build dynamic, responsive applications for our clients and internal products.
+                We&apos;re looking for a passionate Senior Full Stack Developer with deep backend expertise to become a cornerstone of our technical team. You will partner directly with our founder to architect and build the backbone for a variety of our in-house digital platforms and for external agency clients. This is your opportunity to shape a complex, multi-cloud, composable architecture, establish next-generation AI-augmented workflows, and play a pivotal role in building our engineering team in Vietnam.
               </p>
             </div>
             
@@ -124,27 +124,45 @@ export default function Careers() {
               <div>
                 <h4 className="font-medium mb-3">What you&apos;ll do:</h4>
                 <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
-                  <li>• Build responsive web applications using Next.js, TypeScript, and modern frontend frameworks</li>
-                  <li>• Develop native mobile applications using Expo and React Native</li>
-                  <li>• Leverage AI tools and platforms like 21st.dev (Magic MCP) for rapid frontend development</li>
-                  <li>• Work with design systems using shadcn/ui and other component libraries</li>
-                  <li>• Translate Figma designs into pixel-perfect, functional components</li>
-                  <li>• Optimize applications for maximum performance and user experience</li>
-                  <li>• Maintain high code quality through systematic development practices</li>
+                  <li>• Design and develop scalable backend systems using headless, multi-cloud architecture</li>
+                  <li>
+                    • Operate from a spec-driven design process following&nbsp;
+                    <a
+                      href="https://github.com/bmad-code-org/BMAD-METHOD"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline text-indigo-700 dark:text-indigo-300 hover:text-indigo-900 dark:hover:text-indigo-100"
+                    >
+                      BMAD-METHOD
+                    </a>
+                    &nbsp;for Agile Development
+                  </li>
+                  <li>• Drive technical strategy and make critical decisions on architecture and technology</li>
+                  <li>• Collaborate with and mentor other developers and external contractors</li>
+                  <li>• Champion AI-augmented development processes using Cursor.ai, Claude Code, GitHub Copilot</li>
+                  <li>• Manage multiple projects in parallel with high autonomy using Linear.app/Notion</li>
+                  <li>• Play a foundational role in recruiting and onboarding our engineering team</li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-medium mb-3">Who you are:</h4>
                 <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
-                  <li>• <strong>Portfolio required:</strong> Please share links to your previous work</li>
-                  <li>• 3+ years experience with React, Next.js, TypeScript, and modern CSS</li>
-                  <li>• Experience with Expo and React Native for native mobile development</li>
-                  <li>• Familiarity with AI-powered development tools and workflows</li>
-                  <li>• Experience with design systems and component libraries (shadcn/ui preferred)</li>
-                  <li>• Detail-obsessed with a systematic approach to development</li>
+                  <li>• <strong>4+ years full-stack experience</strong> with strong backend emphasis</li>
+                  <li>• Deep expertise in Node.js, TypeScript, and serverless APIs (Next.js API Routes)</li>
+                  <li>• Strong command of PostgreSQL and Supabase with Row Level Security (RLS)</li>
+                  <li>• Cybersecurity awareness and defensive mindset</li>
+                  <li>• Experience with Docker and deploying on Railway, Vercel, AWS</li>
+                  <li>• Familiarity with event-driven architecture and complex third-party API integrations</li>
                   <li>• Located in Vietnam (Da Nang preferred)</li>
                 </ul>
               </div>
+            </div>
+            
+            <div className="mb-6 p-4 bg-green-50 dark:bg-green-950/20 rounded-lg border border-green-200 dark:border-green-800">
+              <h4 className="font-medium text-green-900 dark:text-green-100 mb-2">Compensation & Growth:</h4>
+              <p className="text-sm text-green-700 dark:text-green-300">
+                Starting salary: $650-$950 USD/month based on experience, with performance-based growth, bonuses from month three, and comprehensive benefits for top contributors.
+              </p>
             </div>
             
             <Link href="/apply" className="inline-flex items-center rounded-md bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 px-4 py-2 text-sm font-medium hover:opacity-95">
@@ -153,7 +171,82 @@ export default function Careers() {
             </Link>
           </div>
 
-          {/* Job 3: QA Engineer */}
+          {/* Job 3: Frontend Developer */}
+          <div className="rounded-xl border border-zinc-200/70 dark:border-zinc-800 p-8 bg-white/60 dark:bg-zinc-900/40 mb-6">
+            <div className="flex items-start justify-between mb-6">
+              <div>
+                <h3 className="text-xl font-semibold mb-2">Senior Full Stack Developer (Frontend Focus)</h3>
+                <div className="flex items-center gap-4 text-sm text-zinc-600 dark:text-zinc-400">
+                  <div className="flex items-center gap-1">
+                    <MapPin className="h-4 w-4" />
+                    Remote (Da Nang preferred)
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <Clock className="h-4 w-4" />
+                    Full-time (Async with some Vietnam timezone overlap)
+                  </div>
+                </div>
+              </div>
+              <div className="h-12 w-12 rounded-full bg-indigo-500/10 text-indigo-500 grid place-items-center ring-1 ring-indigo-500/20">
+                <Code className="h-6 w-6" />
+              </div>
+            </div>
+            
+            <div className="mb-6">
+              <h4 className="font-medium mb-3">The Role:</h4>
+              <p className="text-zinc-600 dark:text-zinc-400 mb-4">
+                We&apos;re looking for a passionate Senior Full Stack Developer (Frontend Focus) to craft the exceptional user interfaces that power our diverse portfolio, from brand-new platforms to complex client solutions. You will partner directly with our founder to build pixel-perfect, high-performance user interfaces and experiences. This is your opportunity to shape exceptional user experiences, establish next-generation AI-augmented workflows, and play a pivotal role in building our engineering team in Vietnam.
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-6 mb-6">
+              <div>
+                <h4 className="font-medium mb-3">What you&apos;ll do:</h4>
+                <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+                  <li>• Design and develop responsive web applications (Next.js, TypeScript) and native mobile apps (React Native, Expo)</li>
+                  <li>• Operate from a spec-driven design process following <a
+                      href="https://github.com/bmad-code-org/BMAD-METHOD"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline text-indigo-700 dark:text-indigo-300 hover:text-indigo-900 dark:hover:text-indigo-100"
+                    >
+                      BMAD-METHOD
+                    </a> for Agile Development</li>
+                  <li>• Translate Figma designs into production-ready, high-fidelity components</li>
+                  <li>• Champion AI-augmented frontend workflows using Magic UI MCP (21st.dev), v0.dev, and other AI-powered platforms</li>
+                  <li>• Own the end-user experience by optimizing for performance (Core Web Vitals) and accessibility (WCAG 2.1 AA)</li>
+                  <li>• Manage multiple projects in parallel with high autonomy using Linear.app/Notion</li>
+                  <li>• Occasionally develop custom solutions for clients on platforms like WordPress with Elementor</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-medium mb-3">Who you are:</h4>
+                <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+                  <li>• <strong>Portfolio required:</strong> Please share links to your previous work</li>
+                  <li>• 3+ years frontend-focused experience with React, Next.js, TypeScript, and modern CSS</li>
+                  <li>• Experience with React Native (with Expo) for native mobile development</li>
+                  <li>• Proven experience building and maintaining design systems using shadcn/ui</li>
+                  <li>• Experience with frontend testing frameworks (Jest, React Testing Library, Playwright)</li>
+                  <li>• An obsessive attention to detail and passion for creating beautiful, intuitive user experiences</li>
+                  <li>• Located in Vietnam (Da Nang preferred)</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="mb-6 p-4 bg-green-50 dark:bg-green-950/20 rounded-lg border border-green-200 dark:border-green-800">
+              <h4 className="font-medium text-green-900 dark:text-green-100 mb-2">Compensation & Growth:</h4>
+              <p className="text-sm text-green-700 dark:text-green-300">
+                Starting salary: $500-$850 USD/month based on experience, with performance-based growth, bonuses from month three, and comprehensive benefits for top contributors.
+              </p>
+            </div>
+            
+            <Link href="/apply" className="inline-flex items-center rounded-md bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 px-4 py-2 text-sm font-medium hover:opacity-95">
+              Apply for this position
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
+          </div>
+
+          {/* Job 4: QA Engineer */}
           <div className="rounded-xl border border-zinc-200/70 dark:border-zinc-800 p-8 bg-white/60 dark:bg-zinc-900/40">
             <div className="flex items-start justify-between mb-6">
               <div>
@@ -206,6 +299,13 @@ export default function Careers() {
                   <li>• Familiarity with modern development tools and AI-powered quality solutions</li>
                 </ul>
               </div>
+            </div>
+            
+            <div className="mb-6 p-4 bg-blue-50 dark:bg-blue-950/20 rounded-lg border border-blue-200 dark:border-blue-800">
+              <h4 className="font-medium text-blue-900 dark:text-blue-100 mb-2">Compensation & Growth:</h4>
+              <p className="text-sm text-blue-700 dark:text-blue-300">
+                Competitive part-time compensation based on experience, with performance-based growth opportunities and potential for increased hours as our team expands.
+              </p>
             </div>
             
             <Link href="/apply" className="inline-flex items-center rounded-md bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 px-4 py-2 text-sm font-medium hover:opacity-95">

@@ -237,8 +237,9 @@ export default function Apply() {
                       className="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-zinc-800 dark:text-zinc-100 transition-colors"
                     >
                       <option value="">Select a position</option>
-                      <option value="senior-full-stack-developer">Senior Full Stack Developer & Technical Lead</option>
-                      <option value="mid-senior-full-stack-developer">Mid-Senior Full Stack Developer (Frontend Focus)</option>
+                      <option value="technical-lead">Technical Lead & Strategic Architect</option>
+                      <option value="backend-developer">Senior Full Stack Developer (Backend Focus)</option>
+                      <option value="frontend-developer">Senior Full Stack Developer (Frontend Focus)</option>
                       <option value="quality-engineer">Quality Engineer (Part-Time)</option>
                       <option value="other">Other Position</option>
                     </select>
@@ -281,6 +282,21 @@ export default function Apply() {
                   </div>
 
                   <div className="space-y-2">
+                    <label htmlFor="ai_tools" className="block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
+                      AI Development Tools Experience *
+                    </label>
+                    <textarea
+                      id="ai_tools"
+                      name="ai_tools"
+                      required
+                      rows={3}
+                      className="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-zinc-800 dark:text-zinc-100 transition-colors resize-none"
+                      placeholder="Please describe your experience with AI development tools like Cursor.ai, GitHub Copilot, Claude Code, Factory, Onlook, v0.dev, Magic UI MCP, etc. Include specific examples of how you've used these tools in your development workflow."
+                    />
+                    <ValidationError prefix="AI Tools" field="ai_tools" errors={state.errors} />
+                  </div>
+
+                  <div className="space-y-2">
                     <label htmlFor="cover_letter" className="block text-sm font-semibold text-zinc-700 dark:text-zinc-300">
                       Cover Letter *
                     </label>
@@ -290,7 +306,7 @@ export default function Apply() {
                       required
                       rows={6}
                       className="w-full px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-zinc-800 dark:text-zinc-100 transition-colors resize-none"
-                      placeholder="Tell us about yourself, your experience, why you want to join Innovaly, and what makes you a great fit for this role..."
+                      placeholder="Tell us about yourself, your experience with startup environments, why you want to join Innovaly, and what makes you a great fit for this specific role. Please mention any experience with AI-augmented development workflows and your approach to building products from concept to production."
                     />
                     <ValidationError prefix="Cover Letter" field="cover_letter" errors={state.errors} />
                   </div>
