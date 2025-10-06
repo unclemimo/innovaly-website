@@ -1,0 +1,10 @@
+{
+  "common.title": "Demostración de Internacionalización",
+  "common.description": "Esta página demuestra enrutamiento y traducción por idioma.",
+  "common.selectLanguage": "Selecciona idioma",
+  "common.english": "Inglés",
+  "common.spanish": "Español",
+  "demo.hello": "¡Hola!",
+  "demo.currentLocale": "Idioma actual: {locale}",
+  "demo.switchTo": "Cambiar a {locale}"
+}
