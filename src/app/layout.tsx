@@ -49,8 +49,6 @@ export default function RootLayout({
         />
         {/* 100% privacy-first analytics */}
         <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-        {/* Google Search Console verification */}
-        <meta name="google-site-verification" content="g6ZCgaeC1rz4PboTO__vz4Z5tODteIe8T3Q2ch3vep8" />
       </head>
       <body className={`${inter.variable} antialiased`}>
         <ThemeProvider>
