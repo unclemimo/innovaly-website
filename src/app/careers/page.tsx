@@ -161,7 +161,7 @@ export default function Careers() {
             <div className="mb-6 p-4 bg-green-50 dark:bg-green-950/20 rounded-lg border border-green-200 dark:border-green-800">
               <h4 className="font-medium text-green-900 dark:text-green-100 mb-2">Compensation & Growth:</h4>
               <p className="text-sm text-green-700 dark:text-green-300">
-                Starting salary: $650-$950 USD/month based on experience, with performance-based growth, bonuses from month three, and comprehensive benefits for top contributors.
+                Competitive compensation based on experience, with performance-based growth opportunities, additional bonuses, and comprehensive benefits for top contributors.
               </p>
             </div>
             
@@ -236,7 +236,7 @@ export default function Careers() {
             <div className="mb-6 p-4 bg-green-50 dark:bg-green-950/20 rounded-lg border border-green-200 dark:border-green-800">
               <h4 className="font-medium text-green-900 dark:text-green-100 mb-2">Compensation & Growth:</h4>
               <p className="text-sm text-green-700 dark:text-green-300">
-                Starting salary: $500-$850 USD/month based on experience, with performance-based growth, bonuses from month three, and comprehensive benefits for top contributors.
+                Competitive compensation based on experience, with performance-based growth opportunities, additional bonuses, and comprehensive benefits for top contributors.
               </p>
             </div>
             
