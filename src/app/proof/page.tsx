@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { ArrowRight, Globe, Smartphone, Zap } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import SenjaProofWidget from '@/components/SenjaProofWidget';
 
 export default function Proof() {
   return (
@@ -180,6 +181,16 @@ export default function Proof() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Senja Testimonials Widget */}
+      <section className="py-10 sm:py-14 border-t border-zinc-200/70 dark:border-zinc-800">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div className="rounded-xl border border-zinc-200/70 dark:border-zinc-800 p-8 bg-white/60 dark:bg-zinc-900/40">
+            <h2 className="text-2xl sm:text-3xl tracking-tight font-semibold mb-8 text-center">What Our Clients Say</h2>
+            <SenjaProofWidget />
           </div>
         </div>
       </section>
