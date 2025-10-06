@@ -5,10 +5,9 @@ import { useState, useEffect } from 'react';
 interface ObfuscatedEmailProps {
   className?: string;
   children?: React.ReactNode;
-  showIcon?: boolean;
 }
 
-export default function ObfuscatedEmail({ className = '', children, showIcon = false }: ObfuscatedEmailProps) {
+export default function ObfuscatedEmail({ className = '', children }: ObfuscatedEmailProps) {
   const [email, setEmail] = useState<string>('');
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -47,7 +46,7 @@ export default function ObfuscatedEmail({ className = '', children, showIcon = f
         
         // Fallback: reconstruct from parts
         return obfuscatedData.parts.join('');
-      } catch (error) {
+      } catch {
         // Ultimate fallback
         return 'letstalk@innovaly.services';
       }
