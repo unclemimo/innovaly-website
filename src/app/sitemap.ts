@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://innovaly.com'
+  const baseUrl = 'https://innovaly.services'
   
   return [
     {
