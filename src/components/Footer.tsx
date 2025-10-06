@@ -108,9 +108,35 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="mt-8 pt-6 border-t border-zinc-200/70 dark:border-zinc-800">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <span className="text-xs sm:text-sm text-zinc-500 dark:text-zinc-400">
-              © {new Date().getFullYear()} Innovaly Services OÜ. Remote-first 🇪🇪
-            </span>
+            <div className="flex flex-col sm:flex-row items-center gap-4">
+              <span className="text-xs sm:text-sm text-zinc-500 dark:text-zinc-400">
+                © {new Date().getFullYear()} Innovaly Services OÜ. Remote-first 🇪🇪
+              </span>
+              
+              {/* Legal Links */}
+              <div className="flex items-center gap-4 text-xs sm:text-sm">
+                <Link 
+                  href="/terms" 
+                  className="text-zinc-500 dark:text-zinc-400 hover:text-zinc-700 dark:hover:text-zinc-200 transition-colors"
+                >
+                  Terms of Service
+                </Link>
+                <span className="text-zinc-400 dark:text-zinc-600">•</span>
+                <Link 
+                  href="/privacy" 
+                  className="text-zinc-500 dark:text-zinc-400 hover:text-zinc-700 dark:hover:text-zinc-200 transition-colors"
+                >
+                  Privacy Policy
+                </Link>
+                <span className="text-zinc-400 dark:text-zinc-600">•</span>
+                <Link 
+                  href="/impressum" 
+                  className="text-zinc-500 dark:text-zinc-400 hover:text-zinc-700 dark:hover:text-zinc-200 transition-colors"
+                >
+                  Impressum
+                </Link>
+              </div>
+            </div>
             
             {/* Social Links */}
             <div className="flex items-center gap-2 sm:gap-3">
