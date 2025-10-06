@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Mail } from 'lucide-react';
+import ObfuscatedEmail from './ObfuscatedEmail';
 
 export default function Footer() {
   return (
@@ -32,13 +33,9 @@ export default function Footer() {
             <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
               Business Architects who build—web, growth, platforms, and automation.
             </p>
-            <a 
-              href="mailto:weare@innovaly.services" 
-              className="mt-3 inline-flex items-center text-sm text-indigo-600 dark:text-indigo-400 hover:underline transition-colors"
-            >
+            <ObfuscatedEmail className="mt-3 inline-flex items-center text-sm text-indigo-600 dark:text-indigo-400 hover:underline transition-colors">
               <Mail className="mr-2 h-4 w-4" />
-              weare@innovaly.services
-            </a>
+            </ObfuscatedEmail>
           </div>
           
           {/* Company Links */}
@@ -135,13 +132,9 @@ export default function Footer() {
                   <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
                 </svg>
               </a>
-              <a 
-                href="mailto:weare@innovaly.services" 
-                className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-zinc-200/70 dark:border-zinc-800 hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-colors"
-                aria-label="Email"
-              >
+              <ObfuscatedEmail className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-zinc-200/70 dark:border-zinc-800 hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-colors">
                 <Mail className="h-4 w-4" />
-              </a>
+              </ObfuscatedEmail>
             </div>
           </div>
         </div>

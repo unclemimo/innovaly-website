@@ -2,6 +2,7 @@ import { Handshake, Beaker, Eye, BookOpen, Unlock, Lightbulb, Target, Code } fro
 import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ObfuscatedEmail from '@/components/ObfuscatedEmail';
 
 export default function About() {
   return (
@@ -171,13 +172,10 @@ export default function About() {
             
             {/* Call to action */}
             <div className="mt-6 flex flex-wrap gap-3">
-              <a 
-                href="mailto:weare@innovaly.services" 
-                className="inline-flex items-center px-4 py-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors"
-              >
+              <ObfuscatedEmail className="inline-flex items-center px-4 py-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors">
                 <span className="mr-2">💬</span>
                 Let&apos;s talk
-              </a>
+              </ObfuscatedEmail>
               <a 
                 href="https://linkedin.com/in/davidatias" 
                 target="_blank"

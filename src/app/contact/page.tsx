@@ -4,6 +4,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ObfuscatedEmail from '@/components/ObfuscatedEmail';
 
 export default function Contact() {
   const [state, handleSubmit] = useForm('mblzozpv');
@@ -72,6 +73,21 @@ export default function Contact() {
       <Header />
       
       <main className="min-h-screen py-16 px-4">
+        {/* Floating Book a Call Button */}
+        <div className="fixed right-4 top-1/2 transform -translate-y-1/2 z-40 hidden lg:block">
+          <a
+            href="https://cal.com/innovaly"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-full shadow-lg hover:from-indigo-700 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-all duration-200 transform hover:scale-105"
+          >
+            <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            Book a call with us
+          </a>
+        </div>
+
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
@@ -96,9 +112,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-zinc-900 dark:text-zinc-100 mb-1">Email</h3>
-                      <a href="mailto:weare@innovaly.services" className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors">
-                        weare@innovaly.services
-                      </a>
+                      <ObfuscatedEmail className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors" />
                     </div>
                   </div>
                   

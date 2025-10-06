@@ -77,20 +77,21 @@ export default function Header() {
             <Link href="/proof" className="px-2 xl:px-3 py-2 text-sm font-medium rounded-md hover:bg-zinc-100 dark:hover:bg-zinc-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60 transition-colors">Our Proof</Link>
             <Link href="/ecosystem" className="px-2 xl:px-3 py-2 text-sm font-medium rounded-md hover:bg-zinc-100 dark:hover:bg-zinc-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60 transition-colors">Our Ecosystem</Link>
             <Link href="/careers" className="px-2 xl:px-3 py-2 text-sm font-medium rounded-md hover:bg-zinc-100 dark:hover:bg-zinc-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60 transition-colors">Careers</Link>
+            <Link href="/contact" className="px-2 xl:px-3 py-2 text-sm font-medium rounded-md hover:bg-zinc-100 dark:hover:bg-zinc-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60 transition-colors">Contact us</Link>
           </nav>
 
           {/* Right side buttons */}
           <div className="flex items-center gap-1.5 sm:gap-2">
             {/* CTA Button - Hidden on mobile, visible on tablet+ */}
             <a 
-              href="https://calendar.app.google/tciy8BGYxrfYemRF9" 
+              href="https://cal.com/innovaly" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hidden md:inline-flex items-center rounded-md bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 px-2 lg:px-3 py-1.5 lg:py-2 text-xs lg:text-sm font-medium hover:opacity-95 active:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60 transition-all"
             >
               <Rocket className="mr-1 lg:mr-2 h-3.5 lg:h-4 w-3.5 lg:w-4" />
-              <span className="hidden lg:inline">Get a Free Consultation</span>
-              <span className="lg:hidden">Build</span>
+              <span className="hidden lg:inline">Book a call</span>
+              <span className="lg:hidden">Book a call</span>
             </a>
             
             {/* Theme Toggle */}
@@ -151,8 +152,15 @@ export default function Header() {
             >
               Careers
             </Link>
+            <Link 
+              href="/contact" 
+              className="block px-3 py-2.5 text-sm font-medium rounded-md hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-colors" 
+              onClick={closeMobileMenu}
+            >
+              Contact us
+            </Link>
             <a 
-              href="https://calendar.app.google/tciy8BGYxrfYemRF9" 
+              href="https://cal.com/innovaly" 
               target="_blank" 
               rel="noopener noreferrer"
               className="block px-3 py-2.5 text-sm font-medium rounded-md hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-colors md:hidden" 
@@ -160,7 +168,7 @@ export default function Header() {
             >
               <div className="flex items-center">
                 <Rocket className="mr-2 h-4 w-4" />
-                Let&apos;s Build Together
+                Book a call
               </div>
             </a>
           </div>
