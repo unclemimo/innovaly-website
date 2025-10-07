@@ -8,5 +8,5 @@ export default createMiddleware({
 });
 
 export const config = {
-  matcher: ['/i18n-demo/:path*']
+  matcher: ['/i18n-demo', '/i18n-demo/:path*']
 };

@@ -1,5 +1,5 @@
 import {getTranslations} from 'next-intl/server';
-import {LanguageSwitcher} from '@/components/LanguageSwitcher';
+import Header from '@/components/Header';
 
 export default async function I18nDemoPage({params}: {params: Promise<{locale: string}>}) {
   const {locale} = await params;
@@ -7,6 +7,8 @@ export default async function I18nDemoPage({params}: {params: Promise<{locale: s
   const common = await getTranslations({namespace: 'common'});
 
   return (
+    <>
+    <Header />
     <div className="mx-auto max-w-3xl px-4 py-10">
       <h1 className="text-3xl font-semibold">{common('title')}</h1>
       <p className="mt-2 text-zinc-600 dark:text-zinc-400">{common('description')}</p>
@@ -17,10 +19,7 @@ export default async function I18nDemoPage({params}: {params: Promise<{locale: s
           {t('currentLocale', {locale})}
         </p>
       </div>
-
-      <div className="mt-6">
-        <LanguageSwitcher />
-      </div>
     </div>
+    </>
   );
 }
