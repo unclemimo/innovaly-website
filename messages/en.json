@@ -1,0 +1,10 @@
+{
+  "common.title": "Internationalization Demo",
+  "common.description": "This page demonstrates language routing and translation.",
+  "common.selectLanguage": "Select language",
+  "common.english": "English",
+  "common.spanish": "Spanish",
+  "demo.hello": "Hello!",
+  "demo.currentLocale": "Current locale: {locale}",
+  "demo.switchTo": "Switch to {locale}"
+}

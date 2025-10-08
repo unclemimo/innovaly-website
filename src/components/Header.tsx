@@ -3,10 +3,13 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { Menu, X, Moon, Sun, Rocket } from 'lucide-react';
+import { usePathname } from 'next/navigation';
+import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 
 export default function Header() {
   const [isDark, setIsDark] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const stored = localStorage.getItem('theme');
@@ -102,6 +105,13 @@ export default function Header() {
             >
               {isDark ? <Sun className="h-3.5 w-3.5 sm:h-4 sm:w-4" /> : <Moon className="h-3.5 w-3.5 sm:h-4 sm:w-4" />}
             </button>
+
+            {/* Language Switcher: only render when path is under localized segment */}
+            {/^\/(en|es)(\/|$)/.test(pathname) && (
+              <div className="hidden sm:block">
+                <LanguageSwitcher />
+              </div>
+            )}
             
             {/* Mobile Menu Button */}
             <button 
@@ -171,6 +181,12 @@ export default function Header() {
                 Book a call
               </div>
             </a>
+            {/* Language switcher in mobile menu when localized */}
+            {/^\/(en|es)(\/|$)/.test(pathname) && (
+              <div className="px-3 py-2.5">
+                <LanguageSwitcher />
+              </div>
+            )}
           </div>
         </div>
       </div>
