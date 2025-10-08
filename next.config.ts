@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  env: {
+    NEXT_INTL_CONFIG: './i18n/request'
+  },
   images: {
     remotePatterns: [
       {
