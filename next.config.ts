@@ -1,12 +1,10 @@
 import type { NextConfig } from "next";
 import createNextIntlPlugin from 'next-intl/plugin';
 
-const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
+const withNextIntl = createNextIntlPlugin('./i18n.ts');
 
 const nextConfig: NextConfig = {
-  env: {
-    NEXT_INTL_CONFIG: './i18n/request'
-  },
+  // Do not rely on runtime env for next-intl; plugin wires the config
   images: {
     remotePatterns: [
       {
